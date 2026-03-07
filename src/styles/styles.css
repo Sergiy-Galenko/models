@@ -142,10 +142,7 @@ body {
   height: auto;
   border-radius: 4px;
 }
-/* 
-body {
-  margin: 0;
-}
+
 
 .page-1 {
   position: relative;
@@ -154,8 +151,6 @@ body {
 .page {
   width: 1200px;
   margin: auto;
-
-  background: #e5e5e5;
   min-height: 100vh;
 }
 
@@ -228,4 +223,4 @@ body {
   position: absolute;
   left: 800px;
   top: 190px;
-} */
+} 

@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="This is a clothes shop" />
     <title>Practicality x Creativity</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/styles/reset.css" />
+    <link rel="stylesheet" href="src/styles/normalize.css" />
+    <link rel="stylesheet" href="src/styles/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -13,66 +15,68 @@
   </head>
 
   <body>
-    <section class="hero">
-      <header class="top-menu">
-        <span>design</span>
-        <span>transform</span>
-        <span>experience</span>
-      </header>
-
-      <div class="font">
-        <h1 class="font-one">Practicality</h1>
-        <h2 class="font-two">x</h2>
-        <h3 class="font-three">CREATIVITY</h3>
-      </div>
-      <div class="text-picture">
-        <div class="text-box">
-          <p>
-            <strong
-              >It is the bridge between creativity and practicality, where form
-              meets function.</strong
-            >
-            Designers must consider the target audience, the purpose of the
-            product, and the context of use to create effective solutions.
-          </p>
-        </div>
-        <div class="small-picture">
-          <img
-            src="pictures/image2.png"
-            alt="Secondary visual"
-            class="img-small"
-          />
-        </div>
-      </div>
-
-      <aside class="big-picture">
-        <img src="pictures/image.png" alt="Main visual" class="img-big" />
-      </aside>
-    </section>
     <main>
-      <section class="page-1">
-        <div class="page-1__title">
+      <section class="page page-1" aria-labelledby="intuitive-design-title">
+        <header class="page-1__title" id="intuitive-design-title">
           <h1 class="page-1__title-1">INTUITIVE</h1>
           <h1 class="page-1__title-2">DESIGN</h1>
+        </header>
+
+        <div class="images-page-1" aria-label="Fashion ticket with a portrait">
+          <figure class="page-1__figure page-1__figure--ticket">
+            <img
+              src="src/images/first-part-of-ticket.png"
+              alt="Ticket inspired layout"
+              class="page-1-image-1"
+            />
+          </figure>
+          <figure class="page-1__figure page-1__figure--woman">
+            <img
+              src="src/images/woman-1.png"
+              alt="Portrait of a woman"
+              class="page-1-woman"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <nav class="top-menu" aria-label="Primary actions">
+          <span>design</span>
+          <span>transform</span>
+          <span>experience</span>
+        </nav>
+
+        <div class="font" id="hero-title">
+          <h1 class="font-one">Practicality</h1>
+          <h2 class="font-two">x</h2>
+          <h3 class="font-three">CREATIVITY</h3>
         </div>
 
-        <div class="side-textes">
-          <h2 class="left-side-text">May , 2025</h2>
-          <h2 class="right-side-text">May, 2026</h2>
+        <div class="text-picture">
+          <article class="text-box">
+            <p>
+              <strong
+                >It is the bridge between creativity and practicality, where
+                form meets function.</strong
+              >
+              Designers must consider the target audience, the purpose of the
+              product, and the context of use to create effective solutions.
+            </p>
+          </article>
+
+          <figure class="small-picture">
+            <img
+              src="pictures/image2.png"
+              alt="Secondary visual"
+              class="img-small"
+            />
+          </figure>
         </div>
 
-        <div class="images-page-1">
-          <img
-            src="src/images/first-part-of-ticket.png"
-            alt="Ticket image"
-            class="page-1-image-1"
-          />
-          <img
-            src="src/images/woman-1.png"
-            alt="Woman on ticket"
-            class="page-1-woman"
-          />
-        </div>
+        <figure class="big-picture">
+          <img src="pictures/image.png" alt="Main visual" class="img-big" />
+        </figure>
       </section>
     </main>
   </body>
