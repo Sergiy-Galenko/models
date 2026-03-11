@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f4f4f4;
+  
 }
 
 
@@ -21,6 +22,7 @@ body {
   max-width: 1080px;
   height: 1080px;
   margin: 0 auto;
+  top: 150px;
   position: relative;
   background: #f4f4f4;
 }
@@ -226,26 +228,28 @@ body {
   position: relative;
 }
 
-.page-1-ticket-part-1 {
-  width: 360px;
-  height: 600px;
+.full_ticket {
+  margin: 0;
+  width: 346px;
+  height: 728px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   top: 177px;
+  left: 355px;
 }
 
-.page-1-ticket-part-2 {
-  width: 615px;
-  height: 349px;
-  background-image: url("src/images/");
-}
-
-.page-1-model {
-  width: 323px;
-  height: 569px;
+.page-1__text {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 190px;
+  width: 1038px;
+  top: 931px;
+
+  
 }
