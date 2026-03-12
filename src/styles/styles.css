@@ -14,13 +14,19 @@ body {
   padding: 0 20px;
 }
 
+<<<<<<< Updated upstream
 .page-2-1080x1080 {
+=======
+.hero {
+  width: 100%;
+>>>>>>> Stashed changes
   max-width: 1080px;
   height: 1080px;
   margin: 0 auto;
   top: 150px;
   position: relative;
   background: #f4f4f4;
+  margin-top: 150px;
 }
 .page-2-section-1080x951 {
   position: relative;
@@ -29,7 +35,11 @@ body {
   margin: 0 auto;
 }
 
+<<<<<<< Updated upstream
 .page-2-top-menu {
+=======
+.top-menu {
+>>>>>>> Stashed changes
   position: absolute;
   width: 992px;
   height: 24px;
@@ -43,6 +53,13 @@ body {
   cursor: pointer;
 }
 
+<<<<<<< Updated upstream
+=======
+.top-menu:hover {
+  font-weight: 600;
+}
+
+>>>>>>> Stashed changes
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -121,6 +138,7 @@ body {
   font-display: swap;
 }
 
+<<<<<<< Updated upstream
 @font-face {
   font-family: "Shelley Volante";
   src: url("../../fonts/1ShelleyVolante.woff2") format("woff2");
@@ -182,6 +200,22 @@ body {
 .page-2-img-big {
   width: 255px;
   height: 640px;
+=======
+.img-big {
+  width: 255px;
+  height: 640px;
+  object-fit: cover;
+}
+
+.img-small {
+  width: 255px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.small-picture {
+>>>>>>> Stashed changes
   position: absolute;
   right: 0px;
   bottom: 0px;
