@@ -6,7 +6,6 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f4f4f4;
-  
 }
 
 .container {
@@ -295,14 +294,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-<<<<<<< HEAD
   left: 50%;
   transform: translateX(-50%);
   top: 190px;
-=======
-  width: 1038px;
-  top: 931px;
-
-  
->>>>>>> 21c41a97c6ce494388d4f4bf09d7958d6ff4b2ce
 }
