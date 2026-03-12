@@ -6,8 +6,8 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #f4f4f4;
+  
 }
-
 
 .container {
   max-width: 1080px;
@@ -15,18 +15,22 @@ body {
   padding: 0 20px;
 }
 
-
-.hero {
-  width: 100%;
+.page-2-1080x1080 {
   max-width: 1080px;
   height: 1080px;
   margin: 0 auto;
+  top: 150px;
   position: relative;
   background: #f4f4f4;
 }
+.page-2-section-1080x951 {
+  position: relative;
+  width: 1080px;
+  height: 951px;
+  margin: 0 auto;
+}
 
-
-.top-menu {
+.page-2-top-menu {
   position: absolute;
   width: 992px;
   height: 24px;
@@ -40,11 +44,6 @@ body {
   cursor: pointer;
 }
 
-.top-menu:hover {
-  font-weight: 600;
-}
-
-
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -56,7 +55,6 @@ body {
   grid-row: 1;
   grid-column: 1;
 }
-
 
 .script {
   font-family: "Times New Roman", serif;
@@ -78,7 +76,6 @@ body {
   margin-top: 5px;
 }
 
-
 .text-box {
   position: absolute;
   width: 458px;
@@ -95,7 +92,6 @@ body {
   font-weight: 500;
 }
 
-
 .text-wrapper {
   display: flex;
   align-items: flex-start;
@@ -108,7 +104,6 @@ body {
   font-weight: bold;
 }
 
-
 .right {
   position: absolute;
   width: 255px;
@@ -116,30 +111,90 @@ body {
   top: 311px;
   right: 0;
 }
+.page-2-font-left-said {
+  position: relative;
+}
+@font-face {
+  font-family: "Ekaterina Velikaya One";
+  src: url("../../fonts/EkaterinaVelikayaOne.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: "Shelley Volante";
+  src: url("../../fonts/1ShelleyVolante.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
-.img-big {
+@font-face {
+  font-family: "Shelley Volante";
+  src: url("../../fonts/3900Minutes-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.page-2-font-P {
+  font-family: "Ekaterina Velikaya One";
+  font-size: 410.74px;
+  position: absolute;
+  top: 0px;
+  left: -50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 400;
+}
+
+.page-2-font-racticality {
+  position: absolute;
+  font-family: "Ekaterina Velikaya One";
+  font-size: 113.23px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  top: 231px;
+  left: 329px;
+}
+
+.page-2-font-x {
+  font-family: "Shelley Volante";
+  position: absolute;
+  font-size: 77.63px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  top: 473px;
+  left: 514px;
+}
+
+.page-2-font-CREATIVITY {
+  font-family: "3900 Minutes Regular";
+  position: absolute;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-size: 98.74px;
+  top: 546px;
+  left: 150px;
+}
+.page-2-img-big {
   width: 255px;
   height: 640px;
-  object-fit: cover;
-}
-
-
-.img-small {
-  width: 255px;
-  height: 200px;
-  object-fit: cover;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-}
-
-.small-picture {
   position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.page-2-img-small {
   width: 255px;
   height: 200px;
+  position: absolute;
   top: 751px;
   left: 550px;
 }
-
 
 .main-text {
   font-size: 28px;
@@ -155,13 +210,11 @@ body {
   line-height: 1.6;
 }
 
-
 .image-block img {
   width: 320px;
   height: auto;
   border-radius: 4px;
 }
-
 
 .page {
   max-width: 1080px;
@@ -174,7 +227,6 @@ body {
   position: relative;
 }
 
-
 .page-1__title-1 {
   font-family: "Montserrat", sans-serif;
   font-size: 75px;
@@ -183,7 +235,6 @@ body {
   margin: 0 auto;
   left: 335px;
   top: 26px;
-  
 }
 
 .page-1__title-2 {
@@ -195,7 +246,6 @@ body {
   left: 380px;
   top: 82px;
 }
-
 
 .side-textes-container {
   position: relative;
@@ -221,31 +271,38 @@ body {
   right: 40px;
 }
 
-
 .images-page-1 {
   position: relative;
 }
 
-.page-1-ticket-part-1 {
-  width: 360px;
-  height: 600px;
+.full_ticket {
+  margin: 0;
+  width: 346px;
+  height: 728px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
   top: 177px;
+  left: 355px;
 }
 
-.page-1-ticket-part-2 {
-  width: 615px;
-  height: 349px;
-  background-image: url("src/images/");
-}
-
-.page-1-model {
-  width: 323px;
-  height: 569px;
+.page-1__text {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+<<<<<<< HEAD
   left: 50%;
   transform: translateX(-50%);
   top: 190px;
+=======
+  width: 1038px;
+  top: 931px;
+
+  
+>>>>>>> 21c41a97c6ce494388d4f4bf09d7958d6ff4b2ce
 }
