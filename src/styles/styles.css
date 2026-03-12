@@ -14,7 +14,12 @@ body {
   padding: 0 20px;
 }
 
+<<<<<<< Updated upstream
 .page-2-1080x1080 {
+=======
+.hero {
+  width: 100%;
+>>>>>>> Stashed changes
   max-width: 1080px;
   height: 1080px;
   margin: 0 auto;
@@ -22,6 +27,7 @@ body {
   position: relative;
   background: #f4f4f4;
   margin-top: 150px;
+<<<<<<< Updated upstream
 }
 .page-2-section-1080x951 {
   position: relative;
@@ -31,6 +37,11 @@ body {
 }
 
 .page-2-top-menu {
+=======
+}
+
+.top-menu {
+>>>>>>> Stashed changes
   position: absolute;
   width: 992px;
   height: 24px;
@@ -44,6 +55,25 @@ body {
   cursor: pointer;
 }
 
+<<<<<<< Updated upstream
+=======
+.top-menu:hover {
+  font-weight: 600;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+.left {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+>>>>>>> Stashed changes
 .script {
   font-family: "Times New Roman", serif;
   font-style: italic;
@@ -85,6 +115,7 @@ body {
   letter-spacing: 1px;
 }
 
+<<<<<<< Updated upstream
 .page-2-text-span-light {
   font-family: "Montserrat-Regular";
   font-weight: 400;
@@ -130,6 +161,9 @@ body {
 }
 
 .page-2-text-box {
+=======
+.text-box {
+>>>>>>> Stashed changes
   position: absolute;
   width: 458px;
   height: 200px;
@@ -177,6 +211,7 @@ body {
   font-display: swap;
 }
 
+<<<<<<< Updated upstream
 @font-face {
   font-family: "Shelley Volante";
   src: url("../../fonts/1ShelleyVolante.woff2") format("woff2");
@@ -239,6 +274,22 @@ body {
 .page-2-img-big {
   width: 255px;
   height: 640px;
+=======
+.img-big {
+  width: 255px;
+  height: 640px;
+  object-fit: cover;
+}
+
+.img-small {
+  width: 255px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.small-picture {
+>>>>>>> Stashed changes
   position: absolute;
   right: 0px;
   bottom: 0px;
