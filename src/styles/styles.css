@@ -5,12 +5,11 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  background: white;
 }
 
 .container {
-  max-width: 1080px;
-  max-height: 1080px;
+  max-width: 1080px; 
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -22,8 +21,10 @@ body {
   top: 150px;
   position: relative;
   background: #f4f4f4;
-  margin-top: 150px;
+  margin-top: 13.888%;
+  margin-bottom: 275px;
 }
+
 .page-2-section-1080x951 {
   position: relative;
   width: 1080px;
@@ -282,6 +283,8 @@ body {
 
 .page-1 {
   position: relative;
+  min-height: 900px;
+  
 }
 
 .page-1__title-1 {
@@ -344,6 +347,10 @@ body {
   left: 355px;
 }
 
+.page-1__text-parent {
+  position: relative;
+}
+
 .page-1__text {
   text-align: center;
   line-height: 1.6;
@@ -353,4 +360,79 @@ body {
   position: absolute;
   width: 1038px;
   top: 931px;
+}
+
+.page-3 {
+  position: relative;
+}
+
+.page-3-images {
+  position: relative;
+}
+
+
+
+.page-3-main-1 {
+  width: 1080px;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-3-main-2 {
+  width: 1080px;
+  aspect-ratio: 1170 / 377;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 749px;
+  background-image: url("../images/page-3-main-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ .page-3-top-menu {
+  background-color: white;
+  position: absolute;
+  width: 986px;
+  height: 18px;
+  left: 47%;
+  top: 201px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.page-3-top-menu span {
+  padding: 0 40px;
+ 
+}
+ .page-3-text {
+  margin: 0;
+  width: 543px;
+  height: 54px;
+  position: absolute;
+  top: 679px;
+  left: 56px;
+  line-height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15.5px;
+ }
+
+
+.page-3-last-text {
+  color: white;
+  font-size: 70px;
+  line-height: 100%;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
 }
