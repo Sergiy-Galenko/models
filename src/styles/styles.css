@@ -364,6 +364,7 @@ body {
 
 .page-3 {
   position: relative;
+  margin-bottom: 600px
 }
 
 .page-3-images {
@@ -435,4 +436,128 @@ body {
   font-weight: 400;
   margin: 0;
   text-align: center;
+}
+
+.page-5 {
+  position: relative;
+}
+
+.page-5-design {
+  position: relative;
+}
+
+.page-5-top-left-image {
+  width: 255px;
+  height: 400px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.page-5-bottom-left-image {
+  width: 256px;
+  height: 315px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 704px;
+  left: 47px;
+}
+
+.page-5-right-center-image {
+  width: 530px;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 319px;
+  left: 550px;
+  
+}
+
+
+
+.section-numbers span {
+  font-family: "Ekaterina Velikaya One", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.section-number-1 {
+  position: absolute;
+  top: 30px;
+  left: 280px;
+}
+
+.section-number-2 {
+  position: absolute;
+  top: 280px;
+  left: 200px;
+}
+
+.section-number-3 {
+  position: absolute;
+  top: 680px;
+  left: 50px;
+}
+
+
+
+.page-5-section-1-text__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  position: absolute;
+  top: 104px;
+  left: 275px;
+}
+
+.page-5-section-1-text__description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  top: 160px;
+  left: 275px;
+  
+}
+
+.page-5-section-2-text__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  position: absolute;
+  top: 360px;
+  left: 275px;
+}
+
+.page-5-section-2-text__description {
+  max-width: 255px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  top: 415px;
+  left: 275px;
+}
+
+.page-5-section-3-text__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  position: absolute;
+  top: 755px;
+  left: 322px;
+}
+
+.page-5-section-3-text__description {
+  max-width: 493px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  top: 817px;
+  left: 322px;
+  white-space: pre-line;
 }
