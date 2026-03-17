@@ -565,6 +565,7 @@ body {
 
 .page-7 {
   position: relative;
+  margin-bottom: 1000px;
 }
 
 .page-7-title h1 {
@@ -620,4 +621,68 @@ body {
   top: 675px;
   left: 800px;
 
+}
+
+.page-9 {
+  position: relative;
+}
+
+.page-9-title h1 {
+  font-family: "Ekaterina Velikaya One", sans-serif;
+  font-size: 152px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.page-9-image {
+  position: relative;
+}
+
+.page-9-main-image {
+  width: 1080px;
+  position: absolute;
+  top: -50px;
+  z-index: 1;
+}
+
+.page-9-text {
+  position: relative;
+
+}
+
+.page-9-top-left-text {
+  width: 272px;
+  position: absolute;
+  top: 540px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+
+.page-9-text-title {
+  font-family: "Ekaterina Velikaya One", sans-serif;
+  font-size: 26px;
+  position: absolute;
+  top: 632px;
+  left: 495px;
+  
+}
+
+.page-9-under-title-text p {
+  width: 530px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 708px;
+  left: 536px;
+}
+
+.page-9-last-text p {
+  width: 272px;
+  font-family: "montserrat", sans-serif;
+  font-size: 17px;
+  position: absolute;
+  top: 914px;
+  left: 14px;
 }
