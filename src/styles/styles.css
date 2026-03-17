@@ -385,3 +385,94 @@ main {
   color: #101010;
 }
 /* ----------------- Page 4 ----------------- */
+
+/* ----------------- Page 6 ----------------- */
+.page-6-editorial {
+  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
+  aspect-ratio: 1 / 1;
+  position: relative;
+  background: #f9f8f4;
+  container-type: inline-size;
+  overflow: hidden;
+  padding: 1.8519cqi;
+}
+
+.page-6-photo-frame {
+  position: relative;
+  top: -3.0111cqi;
+  left: -3.0111cqi;
+  width: calc(100% + 1.1111cqi);
+  height: 70.8333cqi;
+  overflow: hidden;
+  background: #ddd6ca;
+}
+
+.page-6-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  filter: sepia(0.18) saturate(0.85) brightness(1.06);
+}
+
+.page-6-meta {
+  display: grid;
+  grid-template-columns: 11.1111cqi 16.6667cqi 20.3704cqi 1fr;
+  align-items: start;
+  column-gap: 3.1481cqi;
+  margin-top: 4.2593cqi;
+}
+
+.page-6-meta p {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #101010;
+}
+
+.page-6-meta span {
+  display: block;
+  white-space: nowrap;
+}
+
+.page-6-meta-label {
+  font-size: 1.6667cqi;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: 0.01em;
+}
+
+.page-6-meta-note {
+  max-width: 14.8148cqi;
+  font-size: 2.037cqi;
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+.page-6-meta-copy {
+  max-width: 39.8148cqi;
+  font-size: 1.9444cqi;
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+}
+
+.page-6-footer {
+  position: absolute;
+  right: 5.1852cqi;
+  bottom: 9.2593cqi;
+}
+
+.page-6-date {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.4444cqi;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #000;
+}
+/* ----------------- Page 6 ----------------- */
