@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  background: #f8f8f5;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -64,7 +64,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: #f4f4f4;
+  background: #ffffff;
   container-type: inline-size;
 }
 /* ----------------- header ----------------- */
@@ -257,7 +257,7 @@ main {
   width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
   aspect-ratio: 1 / 1;
   position: relative;
-  background: #f8f8f6;
+  background: #ffffff;
   container-type: inline-size;
   overflow: hidden;
 }
@@ -391,7 +391,7 @@ main {
   width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
   aspect-ratio: 1 / 1;
   position: relative;
-  background: #f9f8f4;
+  background: #ffffff;
   container-type: inline-size;
   overflow: hidden;
   padding: 1.8519cqi;
@@ -476,3 +476,226 @@ main {
   color: #000;
 }
 /* ----------------- Page 6 ----------------- */
+
+/* ----------------- Page 8 ----------------- */
+.page-8-collage {
+  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
+  aspect-ratio: 1 / 1;
+  position: relative;
+  background: #ffffff;
+  container-type: inline-size;
+  overflow: hidden;
+}
+
+.page-8-collage p,
+.page-8-note {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #121212;
+}
+
+.page-8-top-copy {
+  position: absolute;
+  top: 12.7778cqi;
+  left: 25.5556cqi;
+  width: 23.2222cqi;
+  font-size: 1.9444cqi;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.page-8-note {
+  position: absolute;
+  font-size: 1.3889cqi;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.page-8-note-left {
+  left: 4.1667cqi;
+  top: 40%;
+}
+
+.page-8-note-top {
+  top: 24.0741cqi;
+  right: 5.0926cqi;
+  width: 20.3704cqi;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-8-note-right {
+  right: 8.2407cqi;
+  top: 40.7407cqi;
+}
+
+.page-8-note-bottom {
+  left: 4.1667cqi;
+  top: 63.3333cqi;
+  width: 18.3704cqi;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-8-photo {
+  position: absolute;
+  overflow: hidden;
+  background: #ddd7ca;
+}
+
+.page-8-photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.page-8-photo-small-left {
+  left: 0.463cqi;
+  top: 43.9815cqi;
+  width: 22.6852cqi;
+  height: 17.1296cqi;
+}
+
+.page-8-photo-tall {
+  left: 25.0926cqi;
+  top: 24.537cqi;
+  width: 23.1481cqi;
+  height: 37.6852cqi;
+}
+
+.page-8-photo-mid {
+  left: 49.6296cqi;
+  top: 33.3333cqi;
+  width: 23.1481cqi;
+  height: 28.8889cqi;
+}
+
+.page-8-photo-small-right {
+  right: 1.3889cqi;
+  top: 43.9815cqi;
+  width: 22.6852cqi;
+  height: 17.1296cqi;
+}
+
+.page-8-middle-copy {
+  position: absolute;
+  left: 49.6296cqi;
+  top: 63.8889cqi;
+  width: 24.6111cqi;
+  font-size: 1.9444cqi;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+.page-8-bottom-copy {
+  position: absolute;
+  left: 4.1667cqi;
+  bottom: 14.3519cqi;
+  width: 48.5185cqi;
+  font-size: 1.9444cqi;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+/* ----------------- Page 8 ----------------- */
+
+/* ----------------- Page 10 ----------------- */
+.page-10-editorial {
+  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
+  aspect-ratio: 1 / 1;
+  position: relative;
+  background: #ffffff;
+  container-type: inline-size;
+  overflow: hidden;
+}
+
+.page-10-kicker,
+.page-10-title,
+.page-10-meta,
+.page-10-number {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #121212;
+}
+
+.page-10-kicker {
+  position: absolute;
+  top: 4.6296cqi;
+  left: 3.2407cqi;
+  font-size: 1.5741cqi;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  color: #8e8e8e;
+}
+
+.page-10-header {
+  position: absolute;
+  top: 12.5cqi;
+  left: 3.2407cqi;
+  width: 67.4074cqi;
+}
+
+.page-10-title {
+  font-size: 3.2407cqi;
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+}
+
+.page-10-number {
+  position: absolute;
+  top: 5.4167cqi;
+  right: 2.3148cqi;
+  width: 16.1111cqi;
+  height: 26.3889cqi;
+  background: #000;
+  clip-path: polygon(27% 0, 84% 0, 84% 100%, 20% 100%, 20% 23%, 0 28%, 0 7%);
+}
+
+.page-10-number::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 66%;
+  height: 30%;
+  background: #000;
+  clip-path: polygon(0 34%, 66% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.page-10-meta {
+  position: absolute;
+  left: 3.2407cqi;
+  right: 3.2407cqi;
+  top: 34.6296cqi;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9259cqi;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #8e8e8e;
+}
+
+.page-10-image-frame {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1.8519cqi;
+  height: 61.1111cqi;
+  /* background: #f8f8f5; */
+  padding: 1.8519cqi;
+}
+
+.page-10-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+/* ----------------- Page 10 ----------------- */
