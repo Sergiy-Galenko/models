@@ -4,11 +4,31 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f8f8f5;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  min-height: 100vh;
+  background: white;
+}
+
+.container {
+  max-width: 1080px; 
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.page-2-1080x1080 {
+  max-width: 1080px;
+  height: 1080px;
+  margin: 0 auto;
+  top: 150px;
+  position: relative;
+  background: #f4f4f4;
+  margin-top: 13.888%;
+  margin-bottom: 275px;
+}
+
+.page-2-section-1080x951 {
+  position: relative;
+  width: 1080px;
+  height: 951px;
+  margin: 0 auto;
 }
 main {
   width: 100%;
@@ -320,9 +340,12 @@ main {
 
 .page-4-header {
   position: absolute;
-  top: 21.1111cqi;
-  left: 30.5556cqi;
-  width: 55.5556cqi;
+  top: -622px;
+  left: -24px;
+  bottom: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 400;
 }
 
 .page-4-title {
@@ -399,12 +422,8 @@ main {
 
 .page-6-photo-frame {
   position: relative;
-  top: -3.0111cqi;
-  left: -3.0111cqi;
-  width: calc(100% + 1.1111cqi);
-  height: 70.8333cqi;
-  overflow: hidden;
-  background: #ddd6ca;
+  min-height: 900px;
+  
 }
 
 .page-6-photo {
@@ -574,115 +593,16 @@ main {
   height: 28.8889cqi;
 }
 
-.page-8-photo-small-right {
-  right: 1.3889cqi;
-  top: 43.9815cqi;
-  width: 22.6852cqi;
-  height: 17.1296cqi;
-}
-
-.page-8-middle-copy {
-  position: absolute;
-  left: 49.6296cqi;
-  top: 63.8889cqi;
-  width: 24.6111cqi;
-  font-size: 1.9444cqi;
-  line-height: 1.08;
-  letter-spacing: -0.02em;
-}
-
-.page-8-bottom-copy {
-  position: absolute;
-  left: 4.1667cqi;
-  bottom: 14.3519cqi;
-  width: 48.5185cqi;
-  font-size: 1.9444cqi;
-  line-height: 1.08;
-  letter-spacing: -0.02em;
-}
-/* ----------------- Page 8 ----------------- */
-
-/* ----------------- Page 10 ----------------- */
-.page-10-editorial {
-  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
-  aspect-ratio: 1 / 1;
+.page-1__text-parent {
   position: relative;
-  background: #ffffff;
-  container-type: inline-size;
-  overflow: hidden;
 }
 
-.page-10-kicker,
-.page-10-title,
-.page-10-meta,
-.page-10-number {
-  margin: 0;
+.page-1__text {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
-  color: #121212;
-}
-
-.page-10-kicker {
-  position: absolute;
-  top: 4.6296cqi;
-  left: 3.2407cqi;
-  font-size: 1.5741cqi;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: 0.01em;
-  color: #8e8e8e;
-}
-
-.page-10-header {
-  position: absolute;
-  top: 12.5cqi;
-  left: 3.2407cqi;
-  width: 67.4074cqi;
-}
-
-.page-10-title {
-  font-size: 3.2407cqi;
-  font-weight: 600;
-  line-height: 1.16;
-  letter-spacing: -0.03em;
-}
-
-.page-10-number {
-  position: absolute;
-  top: 5.4167cqi;
-  right: 2.3148cqi;
-  width: 16.1111cqi;
-  height: 26.3889cqi;
-  background: #000;
-  clip-path: polygon(27% 0, 84% 0, 84% 100%, 20% 100%, 20% 23%, 0 28%, 0 7%);
-}
-
-.page-10-number::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 66%;
-  height: 30%;
-  background: #000;
-  clip-path: polygon(0 34%, 66% 0, 100% 0, 100% 100%, 0 100%);
-}
-
-.page-10-meta {
-  position: absolute;
-  left: 3.2407cqi;
-  right: 3.2407cqi;
-  top: 34.6296cqi;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.9259cqi;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: 0;
-  color: #8e8e8e;
-}
-
-.page-10-image-frame {
+  font-weight: 400px;
   position: absolute;
   left: 0;
   right: 0;
@@ -698,4 +618,328 @@ main {
   display: block;
   object-fit: cover;
 }
-/* ----------------- Page 10 ----------------- */
+
+.page-3 {
+  position: relative;
+  margin-bottom: 600px
+}
+
+.page-3-images {
+  position: relative;
+}
+
+
+
+.page-3-main-1 {
+  width: 1080px;
+  height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-3-main-2 {
+  width: 1080px;
+  aspect-ratio: 1170 / 377;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 749px;
+  background-image: url("../images/page-3-main-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ .page-3-top-menu {
+  background-color: white;
+  position: absolute;
+  width: 986px;
+  height: 18px;
+  left: 47%;
+  top: 201px;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.page-3-top-menu span {
+  padding: 0 40px;
+ 
+}
+ .page-3-text {
+  margin: 0;
+  width: 543px;
+  height: 54px;
+  position: absolute;
+  top: 679px;
+  left: 56px;
+  line-height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15.5px;
+ }
+
+
+.page-3-last-text {
+  color: white;
+  font-size: 70px;
+  line-height: 100%;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.page-5 {
+  position: relative;
+  margin-bottom: 750px;
+}
+
+.page-5-design {
+  position: relative;
+}
+
+.page-5-top-left-image {
+  width: 255px;
+  height: 400px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.page-5-bottom-left-image {
+  width: 256px;
+  height: 315px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 704px;
+  left: 47px;
+}
+
+.page-5-right-center-image {
+  width: 530px;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 319px;
+  left: 550px;
+  
+}
+
+
+
+.section-numbers span {
+  font-family: "Ekaterina Velikaya One", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.section-number-1 {
+  position: absolute;
+  top: 30px;
+  left: 280px;
+}
+
+.section-number-2 {
+  position: absolute;
+  top: 280px;
+  left: 200px;
+}
+
+.section-number-3 {
+  position: absolute;
+  top: 680px;
+  left: 50px;
+}
+
+
+
+.page-5-section-1-text__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  position: absolute;
+  top: 104px;
+  left: 275px;
+}
+
+.page-5-section-1-text__description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  top: 160px;
+  left: 275px;
+  
+}
+
+.page-5-section-2-text__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  position: absolute;
+  top: 360px;
+  left: 275px;
+}
+
+.page-5-section-2-text__description {
+  max-width: 255px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  top: 415px;
+  left: 275px;
+}
+
+.page-5-section-3-text__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  position: absolute;
+  top: 755px;
+  left: 322px;
+}
+
+.page-5-section-3-text__description {
+  max-width: 493px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  top: 817px;
+  left: 322px;
+  white-space: pre-line;
+}
+
+.page-7 {
+  position: relative;
+  margin-bottom: 1000px;
+}
+
+.page-7-title h1 {
+  max-width: 1016px;
+  height: 110px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  text-align: center;
+}
+
+.page-7-brackets {
+  position: absolute;
+  top: 191px;
+}
+
+
+.page-7-right-side-text {
+  position: relative;
+}
+
+.page-7-right-side-text-top {
+  max-width: 219px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 365px;
+  left: 827px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.page-7-center-side-text {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  width: 385px;
+  top: 525px;
+  left: 800px;
+
+}
+
+.page-7-bottom-side-text {
+  font-size: 20px;
+  color: #9e9e9e;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  width: 385px;
+  top: 675px;
+  left: 800px;
+
+}
+
+.page-9 {
+  position: relative;
+}
+
+.page-9-title h1 {
+  font-family: "Ekaterina Velikaya One", sans-serif;
+  font-size: 152px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.page-9-image {
+  position: relative;
+}
+
+.page-9-main-image {
+  width: 1080px;
+  position: absolute;
+  top: -50px;
+  z-index: 1;
+}
+
+.page-9-text {
+  position: relative;
+
+}
+
+.page-9-top-left-text {
+  width: 272px;
+  position: absolute;
+  top: 540px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+
+.page-9-text-title {
+  font-family: "Ekaterina Velikaya One", sans-serif;
+  font-size: 26px;
+  position: absolute;
+  top: 632px;
+  left: 495px;
+  
+}
+
+.page-9-under-title-text p {
+  width: 530px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 708px;
+  left: 536px;
+}
+
+.page-9-last-text p {
+  width: 272px;
+  font-family: "montserrat", sans-serif;
+  font-size: 17px;
+  position: absolute;
+  top: 914px;
+  left: 14px;
+}
