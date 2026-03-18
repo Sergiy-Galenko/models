@@ -1030,12 +1030,14 @@ main {
 .page-9-header {
   position: relative;
   z-index: 2;
+  width: 103%;
+  top: -85px;
 }
 
 .page-9-title {
   margin: 0;
   font-family: "Ekaterina Velikaya One", serif;
-  font-size: 149.2px;
+  font-size: 160px;
   font-weight: 400;
   line-height: 0.88;
   letter-spacing: 0;
@@ -1045,11 +1047,9 @@ main {
 .page-9-visual {
   position: relative;
   z-index: 1;
-  margin: 18px 0 0;
-  width: 1050px;
-  height: 431.2px;
+  width: 100%;
   overflow: hidden;
-  left: 15px;
+  left: 20px;
 }
 
 .page-9-main-image {
@@ -1066,7 +1066,7 @@ main {
   grid-template-columns: 272px 1fr;
   column-gap: 150px;
   row-gap: 80px;
-  margin-top: 20.001px;
+  margin-top: 106.4px;
   padding-inline: 4px;
   align-items: start;
 }
@@ -1219,4 +1219,3 @@ main {
   object-fit: cover;
 }
 /* ----------------- Page 10 ----------------- */
-
