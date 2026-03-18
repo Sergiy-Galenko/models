@@ -166,17 +166,8 @@ main {
   width: 81.4815cqi;
   height: 57.4074cqi;
 }
-
-.page-2-hero-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-}
-
 .page-2-wordmark {
-  position: absolute;
-  inset: 0;
+  position: relative;
   width: 100%;
   height: 100%;
   overflow: visible;
@@ -185,9 +176,9 @@ main {
 .page-2-wordmark-initial {
   font-family: "Ekaterina Velikaya One";
   position: absolute;
-  font-size: 34.8889cqi;
-  top: -24.1481cqi;
-  left: -18.9259cqi;
+  font-size: 30.8889cqi;
+  top: 15.037cqi;
+  left: -17.1296cqi;
   line-height: 1;
   letter-spacing: 0;
   font-weight: 400;
