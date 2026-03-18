@@ -478,24 +478,24 @@ main {
 }
 
 .page-5-photo-left {
-  top: 0;
-  left: 0;
-  width: 24.0741cqi;
-  height: 39.3519cqi;
+  top: 0.9259cqi;
+  left: 0.9259cqi;
+  width: 22.6852cqi;
+  height: 39.2593cqi;
 }
 
 .page-5-photo-right {
-  top: 29.1667cqi;
+  top: 30.0926cqi;
   right: 0;
-  width: 50.9259cqi;
-  height: 39.3519cqi;
+  width: 49.7222cqi;
+  height: 39.7222cqi;
 }
 
 .page-5-photo-bottom-left {
-  left: 4.6296cqi;
-  bottom: 5.5556cqi;
-  width: 23.6111cqi;
-  height: 29.1667cqi;
+  left: 4.1667cqi;
+  bottom: 5.6481cqi;
+  width: 24.1667cqi;
+  height: 29.3519cqi;
 }
 
 .page-5-block {
@@ -506,62 +506,87 @@ main {
 .page-5-block-number {
   display: block;
   margin: 0;
-  font-family: "Bodoni Moda", serif;
-  font-size: 2.037cqi;
-  font-style: italic;
+  font-family: "Ekaterina Velikaya One";
+  font-size: 1.9444cqi;
   font-weight: 400;
   line-height: 1;
   color: #1a1a1a;
 }
 
 .page-5-block-title {
-  margin: 5.1852cqi 0 1.3889cqi;
+  margin: 5.5556cqi 0 1.4815cqi;
   font-family: "Montserrat", sans-serif;
-  font-size: 4.0741cqi;
-  font-weight: 700;
+  font-size: 1.9815cqi;
+  font-weight: 800;
   line-height: 1;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
   color: #000;
 }
 
 .page-5-block-copy {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.9444cqi;
+  font-size: 1.3489cqi;
   font-weight: 400;
-  line-height: 1.12;
-  letter-spacing: -0.02em;
+  line-height: 1.14;
+  letter-spacing: -0.015em;
   color: #202020;
 }
 
 .page-5-block-top {
   top: 2.7778cqi;
-  left: 26.3889cqi;
-  width: 67.1296cqi;
+  left: 25.6481cqi;
+  width: 69.7222cqi;
 }
 
 .page-5-block-middle {
-  top: 28.2407cqi;
-  left: 26.3889cqi;
-  width: 23.6111cqi;
+  top: 29.3519cqi;
+  left: 25.6481cqi;
+  width: 22.2222cqi;
+}
+
+.page-5-block-middle .page-5-block-number {
+  position: absolute;
+  top: 0;
+  right: -1.2963cqi;
+}
+
+.page-5-block-middle .page-5-block-title {
+  margin-top: 8.2407cqi;
 }
 
 .page-5-block-bottom {
-  bottom: 13.4259cqi;
-  left: 29.6296cqi;
-  width: 56.9444cqi;
+  bottom: 11.2037cqi;
+  left: 29.9074cqi;
+  width: 47.2222cqi;
 }
 
 .page-5-block-copy--wide {
-  max-width: 64.8148cqi;
+  max-width: 66.6667cqi;
 }
 
 .page-5-block-copy--narrow {
-  max-width: 19.9074cqi;
+  max-width: 20.3704cqi;
+}
+
+.page-5-block-copy--medium {
+  max-width: 46.2963cqi;
 }
 
 .page-5-block-copy--medium + .page-5-block-copy--medium {
-  margin-top: 3.0556cqi;
+  margin-top: 2.5926cqi;
+}
+
+.page-5-photo-left .page-5-photo-image {
+  object-position: 42% center;
+}
+
+.page-5-photo-right .page-5-photo-image {
+  object-position: center 44%;
+}
+
+.page-5-photo-bottom-left .page-5-photo-image {
+  object-position: center 34%;
 }
 /* ----------------- Page 5 ----------------- */
 
