@@ -12,7 +12,8 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 1080px;
+  max-width: 100%;
 }
 
 main {
@@ -63,27 +64,27 @@ main {
 
 /* ----------------- Page 1 ----------------- */
 .page-1 {
-  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
-  aspect-ratio: 1 / 1;
+  width: 1080px;
+  height: 1080px;
   position: relative;
   background: #ffffff;
-  container-type: inline-size;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .page-1__header {
   position: absolute;
-  top: 5.787cqi;
+  top: 62.500px;
   left: 50%;
   transform: translateX(-50%);
-  width: 34.2593cqi;
+  width: 370.000px;
   text-align: center;
 }
 
 .page-1__title {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 5.6481cqi;
+  font-size: 60.999px;
   font-weight: 400;
   line-height: 0.82;
   letter-spacing: -0.045em;
@@ -96,7 +97,7 @@ main {
 
 .page-1__dates {
   position: absolute;
-  top: 48.6111cqi;
+  top: 525.000px;
   left: 0;
   width: 100%;
   pointer-events: none;
@@ -105,7 +106,7 @@ main {
 .page-1__date {
   position: absolute;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.3148cqi;
+  font-size: 25.000px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: -0.03em;
@@ -113,19 +114,19 @@ main {
 }
 
 .page-1__date--left {
-  left: 11.5741cqi;
+  left: 125.000px;
 }
 
 .page-1__date--right {
-  right: 11.1111cqi;
+  right: 120.000px;
 }
 
 .page-1__ticket-wrap {
   position: absolute;
-  top: 16.6667cqi;
+  top: 180.000px;
   left: 50%;
   transform: translateX(-50%);
-  width: 31.9444cqi;
+  width: 345.000px;
 }
 
 .page-1__figure {
@@ -139,32 +140,32 @@ main {
 }
 /* ----------------- Page 1 ----------------- */
 .page-2 {
-  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
-  aspect-ratio: 1 / 1;
+  width: 1080px;
+  height: 1080px;
   position: relative;
   background: #ffffff;
-  container-type: inline-size;
   overflow: hidden;
+  margin: 0 auto;
 }
 .page-2-nav {
   position: relative;
   width: 100%;
-  min-height: 3.7037cqi;
+  min-height: 40.000px;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  gap: 2%;
-  font-size: 1.2963cqi;
+  gap: 22px;
+  font-size: 14.000px;
   letter-spacing: 0.12em;
   cursor: pointer;
 }
 
 .page-2-hero {
   position: relative;
-  top: 11.1111cqi;
+  top: 120.000px;
   left: 0;
-  width: 81.4815cqi;
-  height: 57.4074cqi;
+  width: 880.000px;
+  height: 620.000px;
 }
 .page-2-wordmark {
   position: relative;
@@ -176,9 +177,9 @@ main {
 .page-2-wordmark-initial {
   font-family: "Ekaterina Velikaya One";
   position: absolute;
-  font-size: 30.8889cqi;
-  top: 15.037cqi;
-  left: -17.1296cqi;
+  font-size: 333.600px;
+  top: 162.400px;
+  left: -185.000px;
   line-height: 1;
   letter-spacing: 0;
   font-weight: 400;
@@ -187,23 +188,23 @@ main {
 .page-2-wordmark-main {
   position: absolute;
   font-family: "Ekaterina Velikaya One";
-  font-size: 10.4843cqi;
+  font-size: 113.230px;
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0;
-  top: 17.6852cqi;
-  left: 23.1481cqi;
+  top: 191.000px;
+  left: 249.999px;
   z-index: 2;
 }
 .page-2-wordmark-divider {
   font-family: "Shelley Volante";
   position: absolute;
-  font-size: 7.5556cqi;
+  font-size: 81.600px;
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0;
-  top: 24.4259cqi;
-  left: 41.0185cqi;
+  top: 415.000px;
+  left: 443.000px;
   z-index: 2;
 }
 .page-2-wordmark-accent {
@@ -211,29 +212,29 @@ main {
   position: absolute;
   line-height: 100%;
   letter-spacing: 0;
-  font-size: 11.1426cqi;
-  top: 33.9815cqi;
-  left: 28.8889cqi;
+  font-size: 98.740px;
+  top: 529.000px;
+  left: 312.000px;
   z-index: 2;
 }
 .line {
   position: relative;
-  height: 0.2222cqi;
+  height: 2.400px;
   background: #cfcfcf;
-  width: calc(100% + 4.4444cqi);
-  margin: 0 0 0 -2.2222cqi;
+  width: 527.400px;
+  margin: 0 0 0 -24.000px;
 }
 .page-2-text-span-dark {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.8519cqi;
+  font-size: 20.001px;
   line-height: 1;
   letter-spacing: 0.05em;
 }
 .page-2-text-span-light {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.8519cqi;
+  font-size: 20.001px;
   line-height: 1;
   color: #9e9e9e;
   letter-spacing: 0;
@@ -242,8 +243,8 @@ main {
 .line::after {
   content: "";
   position: absolute;
-  width: 0.7407cqi;
-  aspect-ratio: 1;
+  width: 8.000px;
+  height: 8.000px;
   background: #cfcfcf;
   border-radius: 50%;
   top: 50%;
@@ -257,30 +258,30 @@ main {
 }
 .page-2-layout {
   position: absolute;
-  bottom: 7.5556cqi;
+  bottom: 81.600px;
   left: 0;
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
-  gap: 2.2222cqi;
-  width: 73%;
+  gap: 24.000px;
+  width: 788.400px;
 }
 .page-2-copy {
-  width: calc(100% - 23.6111cqi - 2.2222cqi - 2.7778cqi);
-  height: 18.5185cqi;
+  width: 479.400px;
+  height: 200.000px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0;
-  margin-left: 2.7778cqi;
+  margin-left: 30.000px;
   min-width: 0;
 }
 .page-2-copy p {
   margin: 0;
 }
 .page-2-copy .line {
-  margin-left: calc(-2.2222cqi - 10px);
+  margin-left: -34.000px;
 }
 .page-2-text-span-dark {
   line-height: 1.02;
@@ -302,39 +303,39 @@ main {
 }
 
 .page-2-media-image-secondary {
-  width: 23.6111cqi;
-  height: 18.5185cqi;
+  width: 255.000px;
+  height: 200.000px;
   top: auto;
   left: auto;
 }
 .page-2-media-primary {
   position: absolute;
-  inset-block-end: 7.5556cqi;
-  inset-inline-end: 0;
-  width: 23.7%;
-  height: 67.3%;
+  right: 0;
+  bottom: 81.600px;
+  width: 256.000px;
+  height: 726.840px;
   display: flex;
 }
 .page-2-media-image-primary {
   position: absolute;
-  width: 23.6111cqi;
-  height: 59.2593cqi;
+  width: 255.000px;
+  height: 640.000px;
   bottom: 0;
 }
 /* ----------------- Page 2 ----------------- */
 /* ----------------- Page 4 ----------------- */
 .page-4-sustainability {
-  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
-  aspect-ratio: 1 / 1;
+  width: 1080px;
+  height: 1080px;
   position: relative;
   background: #ffffff;
-  container-type: inline-size;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .page-4-line {
   position: absolute;
-  height: 0.1852cqi;
+  height: 2.000px;
   background: #bfbfbf;
 }
 
@@ -343,8 +344,8 @@ main {
   content: "";
   position: absolute;
   top: 50%;
-  width: 0.9259cqi;
-  aspect-ratio: 1;
+  width: 10.000px;
+  height: 10.000px;
   border-radius: 50%;
   background: #bfbfbf;
   transform: translateY(-50%);
@@ -359,23 +360,23 @@ main {
 }
 
 .page-4-line-top {
-  top: 19.4444cqi;
+  top: 210.000px;
   left: 0;
-  width: 25%;
+  width: 270.000px;
 }
 
 .page-4-line-bottom {
-  left: 30.5556cqi;
-  bottom: 14.8148cqi;
-  width: 69.4444cqi;
+  left: 330.000px;
+  bottom: 160.000px;
+  width: 750.000px;
 }
 
 .page-4-image-wrap {
   position: absolute;
   left: 0;
-  top: 27.037cqi;
-  width: 25%;
-  height: 58.3333cqi;
+  top: 292.000px;
+  width: 270.000px;
+  height: 630.000px;
   background: linear-gradient(180deg, #efefef 0%, #dfdfdf 100%);
   overflow: hidden;
 }
@@ -390,15 +391,15 @@ main {
 
 .page-4-header {
   position: absolute;
-  top: 21.1111cqi;
-  left: 30.5556cqi;
-  width: 55.5556cqi;
+  top: 228.000px;
+  left: 330.000px;
+  width: 600.000px;
 }
 
 .page-4-title {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 6.8519cqi;
+  font-size: 74.001px;
   font-weight: 700;
   line-height: 0.95;
   letter-spacing: -0.04em;
@@ -407,31 +408,31 @@ main {
 
 .page-4-intro {
   position: absolute;
-  top: 43.0556cqi;
-  left: 30.5556cqi;
-  width: 61.1111cqi;
+  top: 465.000px;
+  left: 330.000px;
+  width: 660.000px;
   display: grid;
   grid-template-columns: 1fr 1.55fr;
-  column-gap: 8.3333cqi;
-  row-gap: 2.037cqi;
+  column-gap: 90.000px;
+  row-gap: 22.000px;
   color: #7f7f7f;
 }
 
 .page-4-intro p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.1667cqi;
+  font-size: 12.600px;
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: 0;
 }
 
 .page-4-intro-left {
-  max-width: 16.6667cqi;
+  max-width: 180.000px;
 }
 
 .page-4-intro-right {
-  max-width: 33.3333cqi;
+  max-width: 360.000px;
 }
 
 .page-4-intro-left-bottom {
@@ -440,15 +441,15 @@ main {
 
 .page-4-body {
   position: absolute;
-  left: 30.5556cqi;
-  bottom: 23.1481cqi;
-  width: 61.1111cqi;
+  left: 330.000px;
+  bottom: 249.999px;
+  width: 660.000px;
 }
 
 .page-4-body p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.237cqi;
+  font-size: 24.160px;
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0;
@@ -458,12 +459,12 @@ main {
 
 /* ----------------- Page 5 ----------------- */
 .page-5 {
-  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
-  aspect-ratio: 1 / 1;
+  width: 1080px;
+  height: 1080px;
   position: relative;
   background: #ffffff;
-  container-type: inline-size;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .page-5-photo {
@@ -479,24 +480,24 @@ main {
 }
 
 .page-5-photo-left {
-  top: 0.9259cqi;
-  left: 0.9259cqi;
-  width: 22.6852cqi;
-  height: 39.2593cqi;
+  top: 10.000px;
+  left: 10.000px;
+  width: 245.000px;
+  height: 424.000px;
 }
 
 .page-5-photo-right {
-  top: 30.0926cqi;
+  top: 325.000px;
   right: 0;
-  width: 49.7222cqi;
-  height: 39.7222cqi;
+  width: 537.000px;
+  height: 429.000px;
 }
 
 .page-5-photo-bottom-left {
-  left: 4.1667cqi;
-  bottom: 5.6481cqi;
-  width: 24.1667cqi;
-  height: 29.3519cqi;
+  left: 45.000px;
+  bottom: 60.999px;
+  width: 261.000px;
+  height: 317.001px;
 }
 
 .page-5-block {
@@ -508,16 +509,16 @@ main {
   display: block;
   margin: 0;
   font-family: "Ekaterina Velikaya One";
-  font-size: 1.9444cqi;
+  font-size: 21.000px;
   font-weight: 400;
   line-height: 1;
   color: #1a1a1a;
 }
 
 .page-5-block-title {
-  margin: 5.5556cqi 0 1.4815cqi;
+  margin: 60.000px 0 16.000px;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.9815cqi;
+  font-size: 21.400px;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -0.03em;
@@ -527,7 +528,7 @@ main {
 .page-5-block-copy {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3489cqi;
+  font-size: 14.568px;
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: -0.015em;
@@ -535,47 +536,47 @@ main {
 }
 
 .page-5-block-top {
-  top: 2.7778cqi;
-  left: 25.6481cqi;
-  width: 69.7222cqi;
+  top: 30.000px;
+  left: 276.999px;
+  width: 753.000px;
 }
 
 .page-5-block-middle {
-  top: 29.3519cqi;
-  left: 25.6481cqi;
-  width: 22.2222cqi;
+  top: 317.001px;
+  left: 276.999px;
+  width: 240.000px;
 }
 
 .page-5-block-middle .page-5-block-number {
   position: absolute;
   top: 0;
-  right: -1.2963cqi;
+  right: -14.000px;
 }
 
 .page-5-block-middle .page-5-block-title {
-  margin-top: 8.2407cqi;
+  margin-top: 89.000px;
 }
 
 .page-5-block-bottom {
-  bottom: 11.2037cqi;
-  left: 29.9074cqi;
-  width: 47.2222cqi;
+  bottom: 121.000px;
+  left: 323.000px;
+  width: 510.000px;
 }
 
 .page-5-block-copy--wide {
-  max-width: 66.6667cqi;
+  max-width: 720.000px;
 }
 
 .page-5-block-copy--narrow {
-  max-width: 20.3704cqi;
+  max-width: 220.000px;
 }
 
 .page-5-block-copy--medium {
-  max-width: 46.2963cqi;
+  max-width: 500.000px;
 }
 
 .page-5-block-copy--medium + .page-5-block-copy--medium {
-  margin-top: 2.5926cqi;
+  margin-top: 28.000px;
 }
 
 .page-5-photo-left .page-5-photo-image {
@@ -593,21 +594,21 @@ main {
 
 /* ----------------- Page 6 ----------------- */
 .page-6-editorial {
-  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
-  aspect-ratio: 1 / 1;
+  width: 1080px;
+  height: 1080px;
   position: relative;
   background: #ffffff;
-  container-type: inline-size;
   overflow: hidden;
-  padding: 1.8519cqi;
+  padding: 20.001px;
+  margin: 0 auto;
 }
 
 .page-6-photo-frame {
   position: relative;
-  top: -3.0111cqi;
-  left: -3.0111cqi;
-  width: calc(100% + 1.1111cqi);
-  height: 70.8333cqi;
+  top: -32.520px;
+  left: -32.520px;
+  width: 1092.000px;
+  height: 765.000px;
   overflow: hidden;
   background: #ddd6ca;
 }
@@ -625,10 +626,10 @@ main {
 
 .page-6-meta {
   display: grid;
-  grid-template-columns: 11.1111cqi 16.6667cqi 20.3704cqi 1fr;
+  grid-template-columns: 120.000px 180.000px 220.000px 1fr;
   align-items: start;
-  column-gap: 3.1481cqi;
-  margin-top: 4.2593cqi;
+  column-gap: 33.999px;
+  margin-top: 46.000px;
 }
 
 .page-6-meta p {
@@ -643,23 +644,23 @@ main {
 }
 
 .page-6-meta-label {
-  font-size: 1.6667cqi;
+  font-size: 18.000px;
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: 0.01em;
 }
 
 .page-6-meta-note {
-  max-width: 14.8148cqi;
-  font-size: 2.037cqi;
+  max-width: 160.000px;
+  font-size: 22.000px;
   font-weight: 400;
   line-height: 1.08;
   letter-spacing: -0.02em;
 }
 
 .page-6-meta-copy {
-  max-width: 39.8148cqi;
-  font-size: 1.9444cqi;
+  max-width: 430.000px;
+  font-size: 21.000px;
   font-weight: 400;
   line-height: 1.08;
   letter-spacing: -0.025em;
@@ -667,14 +668,14 @@ main {
 
 .page-6-footer {
   position: absolute;
-  right: 5.1852cqi;
-  bottom: 9.2593cqi;
+  right: 56.000px;
+  bottom: 100.000px;
 }
 
 .page-6-date {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 4.4444cqi;
+  font-size: 48.000px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: -0.04em;
@@ -684,12 +685,12 @@ main {
 
 /* ----------------- Page 8 ----------------- */
 .page-8-collage {
-  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
-  aspect-ratio: 1 / 1;
+  width: 1080px;
+  height: 1080px;
   position: relative;
   background: #ffffff;
-  container-type: inline-size;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .page-8-collage p,
@@ -701,45 +702,45 @@ main {
 
 .page-8-top-copy {
   position: absolute;
-  top: 12.7778cqi;
-  left: 25.5556cqi;
-  width: 23.2222cqi;
-  font-size: 1.9444cqi;
+  top: 138.000px;
+  left: 276.000px;
+  width: 250.800px;
+  font-size: 21.000px;
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
 
 .page-8-note {
   position: absolute;
-  font-size: 1.3889cqi;
+  font-size: 15.000px;
   font-weight: 600;
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
 
 .page-8-note-left {
-  left: 4.1667cqi;
-  top: 40%;
+  left: 45.000px;
+  top: 432.000px;
 }
 
 .page-8-note-top {
-  top: 24.0741cqi;
-  right: 5.0926cqi;
-  width: 20.3704cqi;
+  top: 260.000px;
+  right: 55.000px;
+  width: 220.000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .page-8-note-right {
-  right: 8.2407cqi;
-  top: 40.7407cqi;
+  right: 89.000px;
+  top: 440.000px;
 }
 
 .page-8-note-bottom {
-  left: 4.1667cqi;
-  top: 63.3333cqi;
-  width: 18.3704cqi;
+  left: 45.000px;
+  top: 684.000px;
+  width: 198.400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -759,49 +760,49 @@ main {
 }
 
 .page-8-photo-small-left {
-  left: 0.463cqi;
-  top: 43.9815cqi;
-  width: 22.6852cqi;
-  height: 17.1296cqi;
+  left: 5.000px;
+  top: 475.000px;
+  width: 245.000px;
+  height: 185.000px;
 }
 
 .page-8-photo-tall {
-  left: 25.0926cqi;
-  top: 24.537cqi;
-  width: 23.1481cqi;
-  height: 37.6852cqi;
+  left: 271.000px;
+  top: 265.000px;
+  width: 249.999px;
+  height: 407.000px;
 }
 
 .page-8-photo-mid {
-  left: 49.6296cqi;
-  top: 33.3333cqi;
-  width: 23.1481cqi;
-  height: 28.8889cqi;
+  left: 536.000px;
+  top: 360.000px;
+  width: 249.999px;
+  height: 312.000px;
 }
 
 .page-8-photo-small-right {
-  right: 1.3889cqi;
-  top: 43.9815cqi;
-  width: 22.6852cqi;
-  height: 17.1296cqi;
+  right: 15.000px;
+  top: 475.000px;
+  width: 245.000px;
+  height: 185.000px;
 }
 
 .page-8-middle-copy {
   position: absolute;
-  left: 49.6296cqi;
-  top: 63.8889cqi;
-  width: 24.6111cqi;
-  font-size: 1.9444cqi;
+  left: 536.000px;
+  top: 690.000px;
+  width: 265.800px;
+  font-size: 21.000px;
   line-height: 1.08;
   letter-spacing: -0.02em;
 }
 
 .page-8-bottom-copy {
   position: absolute;
-  left: 4.1667cqi;
-  bottom: 14.3519cqi;
-  width: 48.5185cqi;
-  font-size: 1.9444cqi;
+  left: 45.000px;
+  bottom: 155.001px;
+  width: 524.000px;
+  font-size: 21.000px;
   line-height: 1.08;
   letter-spacing: -0.02em;
 }
@@ -810,16 +811,16 @@ main {
 .page-1__text-parent {
   position: absolute;
   left: 50%;
-  bottom: 5.463cqi;
+  bottom: 59.000px;
   transform: translateX(-50%);
-  width: 89.8148cqi;
+  width: 970.000px;
 }
 
 .page-1__text {
   margin: 0;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.7593cqi;
+  font-size: 19.000px;
   font-weight: 400;
   line-height: 1.08;
   letter-spacing: -0.02em;
@@ -835,12 +836,12 @@ main {
 }
 
 .page-3 {
-  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
-  aspect-ratio: 1 / 1;
+  width: 1080px;
+  height: 1080px;
   position: relative;
   background: #ffffff;
-  container-type: inline-size;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .page-3-top-visual {
@@ -848,7 +849,7 @@ main {
   top: 0;
   left: 0;
   width: 100%;
-  height: 58.3333cqi;
+  height: 630.000px;
   overflow: hidden;
 }
 
@@ -864,15 +865,15 @@ main {
   background-color: white;
   position: absolute;
   width: 100%;
-  min-height: 1.8519cqi;
+  min-height: 20.001px;
   left: 50%;
-  top: 18.0556cqi;
+  top: 195.000px;
   transform: translateX(-50%);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 4.1667cqi;
-  font-size: 1.2037cqi;
+  padding: 0 45.000px;
+  font-size: 13.000px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 0;
@@ -881,19 +882,19 @@ main {
 
 .page-3-copy {
   position: absolute;
-  top: 58.3333cqi;
+  top: 630.000px;
   left: 0;
   width: 100%;
-  min-height: 16.0494cqi;
-  padding: 2.7037cqi 5.0926cqi 2.7778cqi;
+  min-height: 173.334px;
+  padding: 29.200px 55.000px 30.000px;
   background: #ffffff;
 }
 
 .page-3-copy p {
   margin: 0;
-  max-width: 53.7037cqi;
+  max-width: 580.000px;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6519cqi;
+  font-size: 17.841px;
   line-height: 1.08;
   letter-spacing: -0.02em;
   color: #202020;
@@ -904,7 +905,7 @@ main {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 30.5556cqi;
+  height: 330.000px;
   overflow: hidden;
 }
 
@@ -919,12 +920,12 @@ main {
 .page-3-bottom-title {
   position: absolute;
   left: 50%;
-  bottom: 12.037cqi;
+  bottom: 130.000px;
   transform: translateX(-50%);
   margin: 0;
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  font-size: 5.8333cqi;
+  font-size: 63.000px;
   font-weight: 400;
   line-height: 1;
   letter-spacing: -0.04em;
@@ -933,28 +934,28 @@ main {
 }
 /* ----------------- Page 7 ----------------- */
 .page-7 {
-  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
-  aspect-ratio: 1 / 1;
+  width: 1080px;
+  height: 1080px;
   position: relative;
   background: #ffffff;
-  container-type: inline-size;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .page-7-header {
   position: absolute;
-  top: 7.8704cqi;
-  left: 2.7778cqi;
-  width: 94.4444cqi;
+  top: 85.000px;
+  left: 30.000px;
+  width: 1020.000px;
 }
 
 .page-7-title {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 1.2037cqi;
+  gap: 13.000px;
   font-family: "Montserrat", sans-serif;
-  font-size: 3.9074cqi;
+  font-size: 42.200px;
   font-weight: 700;
   line-height: 1.02;
   letter-spacing: -0.05em;
@@ -964,10 +965,10 @@ main {
 
 .page-7-graphic {
   position: absolute;
-  left: 8.3333cqi;
-  top: 26.3889cqi;
-  width: 55.5556cqi;
-  height: 47.2222cqi;
+  left: 90.000px;
+  top: 285.000px;
+  width: 600.000px;
+  height: 510.000px;
 }
 
 .page-7-graphic-image {
@@ -979,16 +980,16 @@ main {
 
 .page-7-side {
   position: absolute;
-  right: 2.7778cqi;
-  top: 51.3889cqi;
-  width: 29.1667cqi;
+  right: 30.000px;
+  top: 555.000px;
+  width: 315.000px;
   text-align: right;
 }
 
 .page-7-date {
-  margin: 0 0 8.3333cqi;
+  margin: 0 0 90.000px;
   font-family: "Montserrat", sans-serif;
-  font-size: 4.3519cqi;
+  font-size: 47.001px;
   font-weight: 700;
   font-style: italic;
   line-height: 1;
@@ -997,9 +998,9 @@ main {
 }
 
 .page-7-main-copy {
-  margin: 0 0 3.7037cqi;
+  margin: 0 0 40.000px;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.2852cqi;
+  font-size: 24.680px;
   font-weight: 400;
   line-height: 1.1;
   letter-spacing: -0.03em;
@@ -1009,7 +1010,7 @@ main {
 .page-7-sub-copy {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5593cqi;
+  font-size: 16.840px;
   font-weight: 300;
   line-height: 1.1;
   letter-spacing: -0.02em;
@@ -1017,13 +1018,13 @@ main {
 }
 /* ----------------- Page 7 ----------------- */
 .page-9 {
-  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
-  aspect-ratio: 1 / 1;
+  width: 1080px;
+  height: 1080px;
   position: relative;
   background: #ffffff;
-  container-type: inline-size;
   overflow: hidden;
-  padding: 1.3889cqi 1.3889cqi 2.1296cqi;
+  padding: 15.000px 15.000px 23.000px;
+  margin: 0 auto;
 }
 
 .page-9-header {
@@ -1034,7 +1035,7 @@ main {
 .page-9-title {
   margin: 0;
   font-family: "Ekaterina Velikaya One", serif;
-  font-size: 13.8148cqi;
+  font-size: 149.200px;
   font-weight: 400;
   line-height: 0.88;
   letter-spacing: 0;
@@ -1044,11 +1045,11 @@ main {
 .page-9-visual {
   position: relative;
   z-index: 1;
-  margin: 1.6667cqi 0 0;
-  width: calc(100% - 2.7778cqi);
-  height: 39.9259cqi;
+  margin: 18.000px 0 0;
+  width: 1050.000px;
+  height: 431.200px;
   overflow: hidden;
-  left: 1.3889cqi;
+  left: 15.000px;
 }
 
 .page-9-main-image {
@@ -1062,11 +1063,11 @@ main {
 .page-9-copy-grid {
   position: relative;
   display: grid;
-  grid-template-columns: 25.1852cqi 1fr;
-  column-gap: 13.8889cqi;
-  row-gap: 7.4074cqi;
-  margin-top: 1.8519cqi;
-  padding-inline: 0.3704cqi;
+  grid-template-columns: 272.000px 1fr;
+  column-gap: 150.000px;
+  row-gap: 80.000px;
+  margin-top: 20.001px;
+  padding-inline: 4.000px;
   align-items: start;
 }
 
@@ -1077,7 +1078,7 @@ main {
 
 .page-9-copy p {
   margin: 0;
-  font-size: 1.5741cqi;
+  font-size: 17.000px;
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: -0.02em;
@@ -1086,15 +1087,15 @@ main {
 .page-9-copy-left-top {
   grid-column: 1;
   grid-row: 1;
-  max-width: 21.2963cqi;
+  max-width: 230.000px;
 }
 
 .page-9-copy-right {
   grid-column: 2;
   grid-row: 1 / span 2;
   align-self: start;
-  padding-top: 2.5926cqi;
-  max-width: 38.8889cqi;
+  padding-top: 28.000px;
+  max-width: 420.000px;
 }
 
 .page-9-subtitle {
@@ -1109,7 +1110,7 @@ main {
 }
 
 .page-9-copy-right-body {
-  max-width: 38.8889cqi;
+  max-width: 420.000px;
   position: absolute;
   top: 95px;
   left: 430px;
@@ -1118,18 +1119,18 @@ main {
 .page-9-copy-left-bottom {
   grid-column: 1;
   grid-row: 2;
-  max-width: 24.0741cqi;
+  max-width: 260.000px;
   align-self: start;
 }
 
 /* ----------------- Page 10 ----------------- */
 .page-10-editorial {
-  width: min(1080px, calc(100vw - 2rem), calc(100dvh - 2rem));
-  aspect-ratio: 1 / 1;
+  width: 1080px;
+  height: 1080px;
   position: relative;
   background: #ffffff;
-  container-type: inline-size;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .page-10-kicker,
@@ -1143,9 +1144,9 @@ main {
 
 .page-10-kicker {
   position: absolute;
-  top: 4.6296cqi;
-  left: 3.2407cqi;
-  font-size: 1.5741cqi;
+  top: 50.000px;
+  left: 35.000px;
+  font-size: 17.000px;
   font-weight: 300;
   line-height: 1;
   letter-spacing: 0.01em;
@@ -1154,13 +1155,13 @@ main {
 
 .page-10-header {
   position: absolute;
-  top: 12.5cqi;
-  left: 3.2407cqi;
-  width: 67.4074cqi;
+  top: 135.000px;
+  left: 35.000px;
+  width: 728.000px;
 }
 
 .page-10-title {
-  font-size: 3.2407cqi;
+  font-size: 35.000px;
   font-weight: 600;
   line-height: 1.16;
   letter-spacing: -0.03em;
@@ -1168,10 +1169,10 @@ main {
 
 .page-10-number {
   position: absolute;
-  top: 5.4167cqi;
-  right: 2.3148cqi;
-  width: 16.1111cqi;
-  height: 26.3889cqi;
+  top: 58.500px;
+  right: 25.000px;
+  width: 174.000px;
+  height: 285.000px;
   background: #000;
   clip-path: polygon(27% 0, 84% 0, 84% 100%, 20% 100%, 20% 23%, 0 28%, 0 7%);
 }
@@ -1189,13 +1190,13 @@ main {
 
 .page-10-meta {
   position: absolute;
-  left: 3.2407cqi;
-  right: 3.2407cqi;
-  top: 34.6296cqi;
+  left: 35.000px;
+  right: 35.000px;
+  top: 374.000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.9259cqi;
+  font-size: 10.000px;
   font-weight: 300;
   line-height: 1;
   letter-spacing: 0;
@@ -1206,9 +1207,9 @@ main {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 1.8519cqi;
-  height: 61.1111cqi;
-  padding: 1.8519cqi;
+  bottom: 20.001px;
+  height: 660.000px;
+  padding: 20.001px;
 }
 
 .page-10-image {
@@ -1218,3 +1219,4 @@ main {
   object-fit: cover;
 }
 /* ----------------- Page 10 ----------------- */
+
