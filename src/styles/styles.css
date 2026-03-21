@@ -81,17 +81,17 @@ main {
 
 .page-1__header {
   position: absolute;
-  top: 62.5px;
+  top: 6%;
   left: 50%;
   transform: translateX(-50%);
-  width: 370px;
+  width: min(90%, 370px);
   text-align: center;
 }
 
 .page-1__title {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 60.999px;
+  font-size: clamp(28px, 5.6vw, 61px);
   font-weight: 400;
   line-height: 0.82;
   letter-spacing: -0.045em;
@@ -104,36 +104,38 @@ main {
 
 .page-1__dates {
   position: absolute;
-  top: 525px;
-  left: 0;
-  width: 100%;
+  top: 48%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(78%, 820px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   pointer-events: none;
 }
 
 .page-1__date {
-  position: absolute;
+  position: static;
   font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-size: clamp(14px, 2.3vw, 25px);
   font-weight: 700;
   line-height: 1;
   letter-spacing: -0.03em;
   color: #111;
 }
 
-.page-1__date--left {
-  left: 125px;
-}
-
+.page-1__date--left,
 .page-1__date--right {
-  right: 120px;
+  left: auto;
+  right: auto;
 }
 
 .page-1__ticket-wrap {
   position: absolute;
-  top: 180px;
+  top: 17%;
   left: 50%;
   transform: translateX(-50%);
-  width: 345px;
+  width: min(60%, 345px);
 }
 
 .page-1__figure {
@@ -145,6 +147,39 @@ main {
   height: auto;
   display: block;
 }
+
+.page-1__text-parent {
+  position: absolute;
+  left: 50%;
+  bottom: 59px;
+  transform: translateX(-50%);
+  width: min(90%, 970px);
+}
+
+.page-1__text {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(11px, 1.5vw, 19px);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #202020;
+}
+
+.page-1__text-lines span {
+  display: block;
+}
+
+.page-1__text strong {
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .page-1__text-lines span {
+    display: inline;
+  }
+}
+
 /* ----------------- Page 1 ----------------- */
 
 .page-2-nav {
@@ -774,33 +809,6 @@ main {
   letter-spacing: -0.02em;
 }
 /* ----------------- Page 8 ----------------- */
-
-.page-1__text-parent {
-  position: absolute;
-  left: 50%;
-  bottom: 59px;
-  transform: translateX(-50%);
-  width: 970px;
-}
-
-.page-1__text {
-  margin: 0;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 19px;
-  font-weight: 400;
-  line-height: 1.08;
-  letter-spacing: -0.02em;
-  color: #202020;
-}
-
-.page-1__text-lines span {
-  display: block;
-}
-
-.page-1__text strong {
-  font-weight: 700;
-}
 
 .page-3-top-visual {
   position: absolute;
