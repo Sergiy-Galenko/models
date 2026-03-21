@@ -60,16 +60,23 @@ main {
   font-style: normal;
   font-display: swap;
 }
-
-.page-1 {
+.page-1,
+.page-2,
+.page-3,
+.page-4,
+.page-5,
+.page-6,
+.page-7,
+.page-8,
+.page-9,
+.page-10 {
+  width: 100%;
   max-width: 1080px;
-  max-height: 1080px;
-  width: 100cqi;
-  height: 100cqi;
+  aspect-ratio: 1 / 1;
   position: relative;
-  background: #ffffff;
-  overflow: hidden;
   margin: 0 auto;
+  overflow: hidden;
+  background: #fff;
 }
 
 .page-1__header {
@@ -139,16 +146,7 @@ main {
   display: block;
 }
 /* ----------------- Page 1 ----------------- */
-.page-2 {
-  max-width: 1080px;
-  max-height: 1080px;
-  width: 100cqi;
-  height: 100cqi;
-  position: relative;
-  background: #ffffff;
-  overflow: hidden;
-  margin: 0 auto;
-}
+
 .page-2-nav {
   position: relative;
   width: 100%;
@@ -326,14 +324,6 @@ main {
 }
 /* ----------------- Page 2 ----------------- */
 /* ----------------- Page 4 ----------------- */
-.page-4-sustainability {
-  width: 1080px;
-  height: 1080px;
-  position: relative;
-  background: #ffffff;
-  overflow: hidden;
-  margin: 0 auto;
-}
 
 .page-4-line {
   position: absolute;
@@ -460,14 +450,6 @@ main {
 /* ----------------- Page 4 ----------------- */
 
 /* ----------------- Page 5 ----------------- */
-.page-5 {
-  width: 1080px;
-  height: 1080px;
-  position: relative;
-  background: #ffffff;
-  overflow: hidden;
-  margin: 0 auto;
-}
 
 .page-5-photo {
   position: absolute;
@@ -595,15 +577,6 @@ main {
 /* ----------------- Page 5 ----------------- */
 
 /* ----------------- Page 6 ----------------- */
-.page-6-editorial {
-  width: 1080px;
-  height: 1080px;
-  position: relative;
-  background: #ffffff;
-  overflow: hidden;
-  padding: 20.001px;
-  margin: 0 auto;
-}
 
 .page-6-photo-frame {
   position: relative;
@@ -686,14 +659,6 @@ main {
 /* ----------------- Page 6 ----------------- */
 
 /* ----------------- Page 8 ----------------- */
-.page-8-collage {
-  width: 1080px;
-  height: 1080px;
-  position: relative;
-  background: #ffffff;
-  overflow: hidden;
-  margin: 0 auto;
-}
 
 .page-8-collage p,
 .page-8-note {
@@ -837,15 +802,6 @@ main {
   font-weight: 700;
 }
 
-.page-3 {
-  width: 1080px;
-  height: 1080px;
-  position: relative;
-  background: #ffffff;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
 .page-3-top-visual {
   position: absolute;
   top: 0;
@@ -935,14 +891,6 @@ main {
   color: #ffffff;
 }
 /* ----------------- Page 7 ----------------- */
-.page-7 {
-  width: 1080px;
-  height: 1080px;
-  position: relative;
-  background: #ffffff;
-  overflow: hidden;
-  margin: 0 auto;
-}
 
 .page-7-header {
   position: absolute;
@@ -1020,13 +968,7 @@ main {
 }
 /* ----------------- Page 7 ----------------- */
 .page-9 {
-  width: 1080px;
-  height: 1080px;
-  position: relative;
-  background: #ffffff;
-  overflow: hidden;
   padding: 15px 15px 23px;
-  margin: 0 auto;
 }
 
 .page-9-header {
@@ -1127,14 +1069,6 @@ main {
 }
 
 /* ----------------- Page 10 ----------------- */
-.page-10-editorial {
-  width: 1080px;
-  height: 1080px;
-  position: relative;
-  background: #ffffff;
-  overflow: hidden;
-  margin: 0 auto;
-}
 
 .page-10-kicker,
 .page-10-title,
