@@ -63,6 +63,7 @@ main {
 
 .page-1 {
   max-width: 1080px;
+  max-height: 1080px;
   width: 100cqi;
   height: 100cqi;
   position: relative;
@@ -70,12 +71,7 @@ main {
   overflow: hidden;
   margin: 0 auto;
 }
-@media (max-width: 1080px) {
-  .page-1 {
-    width: 100vw;
-    height: 100vw;
-  }
-}
+
 .page-1__header {
   position: absolute;
   top: 62.5px;
@@ -145,6 +141,7 @@ main {
 /* ----------------- Page 1 ----------------- */
 .page-2 {
   max-width: 1080px;
+  max-height: 1080px;
   width: 100cqi;
   height: 100cqi;
   position: relative;
@@ -167,7 +164,7 @@ main {
 
 .page-2-hero {
   position: relative;
-  top: 120px;
+  top: 40px;
   left: 0;
   width: 880px;
   height: 620px;
@@ -183,7 +180,7 @@ main {
   font-family: "Ekaterina Velikaya One";
   position: absolute;
   font-size: 333.6px;
-  top: 162.4px;
+  top: -120px;
   left: -185px;
   line-height: 1;
   letter-spacing: 0;
@@ -197,8 +194,8 @@ main {
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0;
-  top: 191px;
-  left: 249.999px;
+  top: 210px;
+  left: 300px;
   z-index: 2;
 }
 .page-2-wordmark-divider {
@@ -208,18 +205,18 @@ main {
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0;
-  top: 415px;
-  left: 443px;
+  top: 440px;
+  left: 485px;
   z-index: 2;
 }
 .page-2-wordmark-accent {
   font-family: "3900 Minutes Regular";
   position: absolute;
   line-height: 100%;
-  letter-spacing: 0;
+  letter-spacing: 0.16em;
   font-size: 98.74px;
   top: 529px;
-  left: 312px;
+  left: 281px;
   z-index: 2;
 }
 .line {
@@ -279,7 +276,7 @@ main {
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0;
-  margin-left: 50px;
+  margin-left: 40px;
   min-width: 0;
 }
 .page-2-copy p {
