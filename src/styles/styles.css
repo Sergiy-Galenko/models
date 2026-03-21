@@ -12,8 +12,8 @@ body {
 }
 
 .container {
-  width: 1080px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1080px;
 }
 
 main {
@@ -60,18 +60,22 @@ main {
   font-style: normal;
   font-display: swap;
 }
-/* ----------------- Шрифти ----------------- */
 
-/* ----------------- Page 1 ----------------- */
 .page-1 {
-  width: 1080px;
-  height: 1080px;
+  max-width: 1080px;
+  width: 100cqi;
+  height: 100cqi;
   position: relative;
   background: #ffffff;
   overflow: hidden;
   margin: 0 auto;
 }
-
+@media (max-width: 1080px) {
+  .page-1 {
+    width: 100vw;
+    height: 100vw;
+  }
+}
 .page-1__header {
   position: absolute;
   top: 62.5px;
@@ -140,8 +144,9 @@ main {
 }
 /* ----------------- Page 1 ----------------- */
 .page-2 {
-  width: 1080px;
-  height: 1080px;
+  max-width: 1080px;
+  width: 100cqi;
+  height: 100cqi;
   position: relative;
   background: #ffffff;
   overflow: hidden;
@@ -221,7 +226,7 @@ main {
   position: relative;
   height: 2.4px;
   background: #cfcfcf;
-  width: 527.4px;
+  width: 510.4px;
   margin: 0 0 0 -24px;
 }
 .page-2-text-span-dark {
@@ -274,7 +279,7 @@ main {
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0;
-  margin-left: 30px;
+  margin-left: 50px;
   min-width: 0;
 }
 .page-2-copy p {
@@ -1030,12 +1035,13 @@ main {
 .page-9-header {
   position: relative;
   z-index: 2;
+  top: -140px;
 }
 
 .page-9-title {
   margin: 0;
   font-family: "Ekaterina Velikaya One", serif;
-  font-size: 149.2px;
+  font-size: 151px;
   font-weight: 400;
   line-height: 0.88;
   letter-spacing: 0;
@@ -1063,10 +1069,10 @@ main {
 .page-9-copy-grid {
   position: relative;
   display: grid;
-  grid-template-columns: 272px 1fr;
+  grid-template-columns: 335px 1fr;
   column-gap: 150px;
-  row-gap: 80px;
-  margin-top: 20.001px;
+  row-gap: 225px;
+  margin-top: 25px;
   padding-inline: 4px;
   align-items: start;
 }
@@ -1100,10 +1106,10 @@ main {
 
 .page-9-subtitle {
   position: absolute;
-  top: 75px;
-  left: 400px;
+  top: 45px;
+  left: 520px;
   font-family: "Ekaterina Velikaya One", serif;
-  font-size: 35px;
+  font-size: 49.5px;
   font-weight: 400;
   line-height: 0.9;
   color: #050505;
@@ -1112,14 +1118,14 @@ main {
 .page-9-copy-right-body {
   max-width: 420px;
   position: absolute;
-  top: 95px;
-  left: 430px;
+  top: 150px;
+  left: 580px;
 }
 
 .page-9-copy-left-bottom {
   grid-column: 1;
   grid-row: 2;
-  max-width: 260px;
+  max-width: 287px;
   align-self: start;
 }
 
@@ -1219,4 +1225,3 @@ main {
   object-fit: cover;
 }
 /* ----------------- Page 10 ----------------- */
-
