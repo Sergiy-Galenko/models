@@ -1166,10 +1166,16 @@ main {
 }
 
 .page-10-title {
-  font-size: 218.75%;
+  font-size: 131.75%;
   font-weight: 600;
   line-height: 1.16;
   letter-spacing: -0.03em;
+}
+
+@media (max-width: 350px) {
+  .page-10-title {
+    font-size: 215%;
+  }
 }
 
 .page-10-number {
