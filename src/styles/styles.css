@@ -486,7 +486,7 @@ main {
 .page-4-title {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 462.50625%;
+  font-size: 340%;
   font-weight: 700;
   line-height: 0.95;
   letter-spacing: -0.04em;
@@ -496,30 +496,31 @@ main {
 .page-4-intro {
   position: absolute;
   top: 43.055556%;
-  left: 30.555556%;
-  width: 61.111111%;
+  left: 29.5%;
+  width: 74%;
   display: grid;
-  grid-template-columns: 1fr 1.55fr;
-  column-gap: 8.333333%;
-  row-gap: 2.037037%;
+  grid-template-columns: 0.4fr 1fr;
+  column-gap: 15%;
+  row-gap: 25%;
   color: #7f7f7f;
 }
 
 .page-4-intro p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 78.75%;
+  font-size: 70%;
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: 0;
+  padding-left: 6%;
 }
 
 .page-4-intro-left {
-  max-width: 16.666667%;
+  max-width: 100%;
 }
 
 .page-4-intro-right {
-  max-width: 33.333333%;
+  max-width: 90%;
 }
 
 .page-4-intro-left-bottom {
@@ -529,14 +530,14 @@ main {
 .page-4-body {
   position: absolute;
   left: 30.555556%;
-  bottom: 23.148056%;
+  bottom: 19%;
   width: 61.111111%;
 }
 
 .page-4-body p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 151%;
+  font-size: 112%;
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0;
@@ -595,7 +596,7 @@ main {
 }
 
 .page-5-block-title {
-  margin: 5.555556% 0 1.481481%;
+  margin-bottom: 10%;
   font-family: "Montserrat", sans-serif;
   font-size: 133.75%;
   font-weight: 800;
@@ -607,7 +608,7 @@ main {
 .page-5-block-copy {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 91.05%;
+  font-size: 75%;
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: -0.015em;
@@ -617,19 +618,19 @@ main {
 .page-5-block-top {
   top: 2.777778%;
   left: 25.648056%;
-  width: 69.722222%;
+  width: 110%;
 }
 
 .page-5-block-middle {
-  top: 29.351944%;
+  top: 36%;
   left: 25.648056%;
   width: 22.222222%;
 }
 
 .page-5-block-middle .page-5-block-number {
   position: absolute;
-  top: 0;
-  right: -1.296296%;
+  top: -80%;
+  right: -5%;
 }
 
 .page-5-block-middle .page-5-block-title {
@@ -647,7 +648,7 @@ main {
 }
 
 .page-5-block-copy--narrow {
-  max-width: 20.37037%;
+  max-width: 90%;
 }
 
 .page-5-block-copy--medium {
@@ -698,8 +699,9 @@ main {
   display: grid;
   grid-template-columns: 11.111111% 16.666667% 20.37037% 1fr;
   align-items: start;
-  column-gap: 3.148056%;
+  column-gap: 1%;
   margin-top: 4.259259%;
+  padding-inline: 1.5%;
 }
 
 .page-6-meta p {
@@ -920,7 +922,7 @@ main {
   margin: 0;
   max-width: 53.703704%;
   font-family: "Montserrat", sans-serif;
-  font-size: 111.50625%;
+  font-size: 75%;
   line-height: 1.08;
   letter-spacing: -0.02em;
   color: #202020;
@@ -946,12 +948,12 @@ main {
 .page-3-bottom-title {
   position: absolute;
   left: 50%;
-  bottom: 12.037037%;
+  bottom: 40%;
   transform: translateX(-50%);
   margin: 0;
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  font-size: 393.75%;
+  font-size: 280%;
   font-weight: 400;
   line-height: 1;
   letter-spacing: -0.04em;
@@ -973,7 +975,7 @@ main {
   flex-direction: column;
   gap: 1.203704%;
   font-family: "Montserrat", sans-serif;
-  font-size: 263.75%;
+  font-size: 185%;
   font-weight: 700;
   line-height: 1.02;
   letter-spacing: -0.05em;
@@ -1005,7 +1007,7 @@ main {
 }
 
 .page-7-date {
-  margin: 0 0 8.333333%;
+  margin: 0 0 35%;
   font-family: "Montserrat", sans-serif;
   font-size: 293.75625%;
   font-weight: 700;
@@ -1016,9 +1018,9 @@ main {
 }
 
 .page-7-main-copy {
-  margin: 0 0 3.703704%;
+  margin: 0 0 20%;
   font-family: "Montserrat", sans-serif;
-  font-size: 154.25%;
+  font-size: 105%;
   font-weight: 400;
   line-height: 1.1;
   letter-spacing: -0.03em;
@@ -1028,7 +1030,7 @@ main {
 .page-7-sub-copy {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 105.25%;
+  font-size: 80%;
   font-weight: 300;
   line-height: 1.1;
   letter-spacing: -0.02em;
@@ -1223,4 +1225,3 @@ main {
   display: block;
   object-fit: cover;
 }
-
