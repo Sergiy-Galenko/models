@@ -1172,11 +1172,23 @@ main {
   letter-spacing: -0.03em;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 480px) {
   .page-10-title {
     font-size: 215%;
   }
 }
+
+ @media (max-width: 768px) {
+  .page-10-title {
+    font-size: 215%;
+  }
+} 
+
+ @media (max-width: 1024px) {
+  .page-10-title {
+    font-size: 215%;
+  }
+} 
 
 .page-10-number {
   position: absolute;
