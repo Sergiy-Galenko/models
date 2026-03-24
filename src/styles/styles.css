@@ -1189,7 +1189,11 @@ main {
     font-size: 215%;
   }
 } 
-
+@media (max-width: 1920px) {
+  .page-10-title {
+    font-size: 186%;
+  }
+} 
 .page-10-number {
   position: absolute;
   top: 5.416667%;
