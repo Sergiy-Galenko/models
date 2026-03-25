@@ -78,7 +78,6 @@ main {
   overflow: hidden;
   background: #fff;
   container-type: inline-size;
-  font-size: 1.481481cqw;
 }
 
 .page-1__header {
@@ -973,7 +972,7 @@ main {
   flex-direction: column;
   gap: 1.203704%;
   font-family: "Montserrat", sans-serif;
-  font-size: 263.75%;
+  font-size: 4cqw;
   font-weight: 700;
   line-height: 1.02;
   letter-spacing: -0.05em;
@@ -1007,7 +1006,7 @@ main {
 .page-7-date {
   margin: 0 0 8.333333%;
   font-family: "Montserrat", sans-serif;
-  font-size: 293.75625%;
+  font-size: 5cqw;
   font-weight: 700;
   font-style: italic;
   line-height: 1;
@@ -1018,7 +1017,7 @@ main {
 .page-7-main-copy {
   margin: 0 0 3.703704%;
   font-family: "Montserrat", sans-serif;
-  font-size: 154.25%;
+  font-size: 2.2cqw;
   font-weight: 400;
   line-height: 1.1;
   letter-spacing: -0.03em;
@@ -1028,7 +1027,7 @@ main {
 .page-7-sub-copy {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 105.25%;
+  font-size: 1.5cqw;
   font-weight: 300;
   line-height: 1.1;
   letter-spacing: -0.02em;
@@ -1036,31 +1035,32 @@ main {
 }
 /* ----------------- Page 7 ----------------- */
 .page-9 {
-  padding: 1.388889% 1.388889% 2.12963%;
+  padding: 1.388889% 0% 2.12963% 1.388889%;
 }
 
 .page-9-header {
-  position: relative;
-  z-index: 2;
-  top: -12.962963%;
+  container-type: inline-size;
+  height:59.5cqw;
 }
 
 .page-9-title {
-  margin: 0;
+  padding-top: 9cqw;
   font-family: "Ekaterina Velikaya One", serif;
-  font-size: 943.75%;
+  font-size: 14cqw;
   font-weight: 400;
   line-height: 0.88;
   letter-spacing: 0;
   color: #050505;
+  position:relative;
+  z-index:2
 }
 
 .page-9-visual {
   position: relative;
   z-index: 1;
-  margin: 1.666667% 0 0;
+  margin: -3.3% 0 0;
   width: 97.222222%;
-  height: 39.925926%;
+  height: 41cqw;
   overflow: hidden;
   left: 1.388889%;
 }
@@ -1090,6 +1090,7 @@ main {
 }
 
 .page-9-copy p {
+
   margin: 0;
   font-size: 106.25%;
   font-weight: 400;
@@ -1113,7 +1114,7 @@ main {
 
 .page-9-subtitle {
   position: absolute;
-  top: 4.166667%;
+  top: 13.166667%;
   left: 48.148148%;
   font-family: "Ekaterina Velikaya One", serif;
   font-size: 309.375%;
@@ -1125,7 +1126,7 @@ main {
 .page-9-copy-right-body {
   max-width: 38.888889%;
   position: absolute;
-  top: 13.888889%;
+  top: 20.888889%;
   left: 53.703704%;
 }
 
@@ -1151,7 +1152,7 @@ main {
   position: absolute;
   top: 4.62963%;
   left: 3.240741%;
-  font-size: 106.25%;
+  font-size: 152%;
   font-weight: 300;
   line-height: 1;
   letter-spacing: 0.01em;
@@ -1163,37 +1164,39 @@ main {
   top: 12.5%;
   left: 3.240741%;
   width: 67.407407%;
+  container-type:inline-size;
 }
 
 .page-10-title {
-  font-size: 131.75%;
   font-weight: 600;
   line-height: 1.16;
   letter-spacing: -0.03em;
+  font-size: 4.8cqw
+}
+
+/* @media (max-width: 1920px) {
+  .page-10-title {
+    ;
+  }
+}
+
+@media (max-width: 1024px) {
+  .page-10-title {
+    font-size: 4.8cqw;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-10-title {
+    font-size: 4.8cqw;
+  }
 }
 
 @media (max-width: 480px) {
   .page-10-title {
-    font-size: 215%;
+    font-size: 4.8cqw;
   }
-}
-
- @media (max-width: 768px) {
-  .page-10-title {
-    font-size: 215%;
-  }
-} 
-
- @media (max-width: 1024px) {
-  .page-10-title {
-    font-size: 215%;
-  }
-} 
-@media (max-width: 1920px) {
-  .page-10-title {
-    font-size: 164%;
-  }
-} 
+} */
 .page-10-number {
   position: absolute;
   top: 5.416667%;
