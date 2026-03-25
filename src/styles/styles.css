@@ -186,22 +186,21 @@ main {
 .page-2 {
   display: flex;
   flex-direction: column;
-  padding-bottom: 10%;
-}
-
-.page-2-header {
-  width: 100%;
+  color: #000000;
 }
 
 .page-2-nav {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  font-size: 87.5%;
-  letter-spacing: 0.12em;
-  cursor: pointer;
-  padding-top: 2%;
+  padding: 4.2% 4.2%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.55cqw;
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  cursor: default;
+  color: #000000;
 }
 
 .page-2-stage {
@@ -209,212 +208,176 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 2.3%;
-  padding-top: 3.7%;
+  gap: 1.8%;
+  padding-bottom: 12%;
+  min-height: 0;
 }
-
-.page-2-content {
+.page-2-main {
   flex: 1 1 auto;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-
-.page-2-hero {
-  position: relative;
-  width: 100%;
-  min-height: 165%;
+  justify-content: flex-start;
+  gap: 1.8cqw;
+  padding-left: 2.2%;
 }
 
 .page-2-wordmark {
   position: relative;
   width: 100%;
-  height: 100%;
+  min-height: 58cqw;
   overflow: visible;
   margin: 0;
 }
 .page-2-wordmark-p {
   font-family: "Ekaterina Velikaya One";
   position: absolute;
-  font-size: 2260%;
-  top: -9.5%;
-  left: -21.5%;
-  line-height: 0.88;
+  font-size: 34cqw;
+  top: -20cqw;
+  left: -14.8cqw;
+  line-height: 0.84;
   letter-spacing: 0;
   font-weight: 400;
   z-index: 1;
+  color: #000000;
 }
 .page-2-wordmark-racticality {
   position: absolute;
   font-family: "Ekaterina Velikaya One";
-  font-size: 735%;
+  font-size: 9.1cqw;
   font-weight: 400;
-  line-height: 1;
+  line-height: 0.94;
   letter-spacing: 0;
-  top: 21.5%;
-  left: 30%;
+  top: 13.8cqw;
+  left: 33.8cqw;
   z-index: 2;
+  color: #000000;
 }
 .page-2-wordmark-x {
   font-family: "Shelley Volante";
   position: absolute;
-  font-size: 470%;
+  font-size: 6.25cqw;
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0;
-  top: 44%;
-  left: 48%;
+  top: 31.9cqw;
+  left: 49.8cqw;
   z-index: 2;
+  color: #000000;
 }
 .page-2-wordmark-CREATIVITY {
-  font-family: "3900 Minutes Regular";
   position: absolute;
   line-height: 100%;
-  letter-spacing: 0.16em;
-  font-size: 590%;
-  top: 56%;
-  left: 27.5%;
+  font-size: 6cqw;
+  top: 38.8cqw;
+  left: 31.3cqw;
   z-index: 2;
+  font-weight: 400;
+  color: #000000;
 }
-.line {
-  position: relative;
-  height: 0.222222%;
-  background: #cfcfcf;
-  width: 47.259259%;
-  margin: 0 0 0 -2.222222%;
-}
+
 .page-2-text-span-dark {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 125.00625%;
-  line-height: 1;
-  letter-spacing: 0.05em;
+  display: block;
+  max-width: 90%;
+  font-weight: 500;
+  font-size: 1.68cqw;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+  color: #1f1f1f;
 }
 .page-2-text-span-light {
   font-family: "Montserrat", sans-serif;
+  display: block;
+  max-width: 92%;
   font-weight: 400;
-  font-size: 125.00625%;
-  line-height: 1;
-  color: #9e9e9e;
+  font-size: 1.7cqw;
+  line-height: 1.3;
+  color: #9a9a9a;
   letter-spacing: 0;
 }
-.line::before,
-.line::after {
-  content: "";
-  position: absolute;
-  width: 0.740741%;
-  height: 0.740741%;
-  background: #cfcfcf;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.line::before {
-  left: 0;
-}
-.line::after {
-  right: 0;
-}
+
 .page-2-layout {
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-end;
   justify-content: space-between;
-  gap: 2.222222%;
+  gap: 2.2%;
   width: 100%;
+  min-height: 18cqw;
 }
 
 .page-2-copy {
   flex: 1 1 auto;
-  max-width: 60.277778%;
-  min-height: 18.518519%;
+  max-width: 64%;
+  min-height: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 1.2cqw;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0;
   min-width: 0;
+  padding-left: 0.3cqw;
 }
 
-.page-2-copy p {
-  margin: 0;
-}
-
-.page-2-copy .line {
-  width: 100%;
-  margin-left: 0;
-}
-
-.page-2-text-span-dark {
-  line-height: 1.02;
-}
-
-.page-2-text-span-light {
-  line-height: 1.04;
-}
-
-.page-2-media {
-  margin: 0;
-}
-
-.page-2-media-secondary {
-  flex: 0 0 33.333333%;
-}
-
-.page-2-media-image {
+.page-2-copy-line {
+  position: relative;
   display: block;
+  width: 100%;
+  height: 0.14cqw;
+  background: #b8b8b8;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.page-2-copy-line::before,
+.page-2-copy-line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 0.82cqw;
+  height: 0.82cqw;
+  background: #b8b8b8;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.page-2-copy-line::before {
+  left: -0.2cqw;
+}
+
+.page-2-copy-line::after {
+  right: -0.2cqw;
+}
+
+.page-2-copy-text {
+  margin: 0;
+  padding: 1.5cqw 1.25cqw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7cqw;
 }
 
 .page-2-media-image-secondary {
-  width: 100%;
-  aspect-ratio: 1.275 / 1;
+  display: block;
+  flex: 0 0 31.8%;
+  width: 31.8%;
+  height: auto;
+  aspect-ratio: 256 / 200;
   object-fit: cover;
-}
-
-.page-2-media-primary {
-  display: flex;
-  flex: 0 0 24.2%;
-  align-items: flex-end;
 }
 
 .page-2-media-image-primary {
-  width: 100%;
-  height: 67.3%;
+  display: block;
+  flex: 0 0 24%;
+  align-self: flex-end;
+  width: 24%;
+  height: auto;
+  aspect-ratio: 255 / 640;
+  margin-top: auto;
   object-fit: cover;
-}
-
-@media (max-width: 48em) {
-  .page-2 {
-    padding: 4% 4% 5%;
-  }
-
-  .page-2-stage {
-    flex-direction: column;
-    gap: 4%;
-  }
-
-  .page-2-content {
-    gap: 5%;
-  }
-
-  .page-2-layout {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .page-2-copy,
-  .page-2-media-secondary,
-  .page-2-media-primary {
-    max-width: none;
-    flex-basis: auto;
-    width: 100%;
-  }
-
-  .page-2-media-image-primary {
-    height: auto;
-    aspect-ratio: 0.352155 / 1;
-  }
+  object-position: center;
 }
 /* ----------------- Page 2 ----------------- */
 /* ----------------- Page 4 ----------------- */
@@ -463,7 +426,6 @@ main {
   top: 27.037037%;
   width: 25%;
   height: 58.333333%;
-  background: linear-gradient(180deg, #efefef 0%, #dfdfdf 100%);
   overflow: hidden;
 }
 
@@ -485,7 +447,7 @@ main {
 .page-4-title {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 462.50625%;
+  font-size: 340%;
   font-weight: 700;
   line-height: 0.95;
   letter-spacing: -0.04em;
@@ -495,30 +457,31 @@ main {
 .page-4-intro {
   position: absolute;
   top: 43.055556%;
-  left: 30.555556%;
-  width: 61.111111%;
+  left: 29.5%;
+  width: 74%;
   display: grid;
-  grid-template-columns: 1fr 1.55fr;
-  column-gap: 8.333333%;
-  row-gap: 2.037037%;
+  grid-template-columns: 0.4fr 1fr;
+  column-gap: 15%;
+  row-gap: 25%;
   color: #7f7f7f;
 }
 
 .page-4-intro p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 78.75%;
+  font-size: 70%;
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: 0;
+  padding-left: 6%;
 }
 
 .page-4-intro-left {
-  max-width: 16.666667%;
+  max-width: 100%;
 }
 
 .page-4-intro-right {
-  max-width: 33.333333%;
+  max-width: 90%;
 }
 
 .page-4-intro-left-bottom {
@@ -528,14 +491,14 @@ main {
 .page-4-body {
   position: absolute;
   left: 30.555556%;
-  bottom: 23.148056%;
+  bottom: 19%;
   width: 61.111111%;
 }
 
 .page-4-body p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 151%;
+  font-size: 112%;
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0;
@@ -594,7 +557,7 @@ main {
 }
 
 .page-5-block-title {
-  margin: 5.555556% 0 1.481481%;
+  margin-bottom: 10%;
   font-family: "Montserrat", sans-serif;
   font-size: 2.01cqw;
   font-weight: 800;
@@ -616,19 +579,19 @@ main {
 .page-5-block-top {
   top: 2.777778%;
   left: 25.648056%;
-  width: 69.722222%;
+  width: 110%;
 }
 
 .page-5-block-middle {
-  top: 29.351944%;
+  top: 36%;
   left: 25.648056%;
   width: 22.222222%;
 }
 
 .page-5-block-middle .page-5-block-number {
   position: absolute;
-  top: 0;
-  right: -1.296296%;
+  top: -80%;
+  right: -5%;
 }
 
 .page-5-block-middle .page-5-block-title {
@@ -933,7 +896,7 @@ main {
   margin: 0;
   max-width: 53.703704%;
   font-family: "Montserrat", sans-serif;
-  font-size: 111.50625%;
+  font-size: 75%;
   line-height: 1.08;
   letter-spacing: -0.02em;
   color: #202020;
@@ -959,12 +922,12 @@ main {
 .page-3-bottom-title {
   position: absolute;
   left: 50%;
-  bottom: 12.037037%;
+  bottom: 40%;
   transform: translateX(-50%);
   margin: 0;
   font-family: "Montserrat", sans-serif;
   width: 100%;
-  font-size: 393.75%;
+  font-size: 280%;
   font-weight: 400;
   line-height: 1;
   letter-spacing: -0.04em;
@@ -1018,7 +981,7 @@ main {
 }
 
 .page-7-date {
-  margin: 0 0 8.333333%;
+  margin: 0 0 35%;
   font-family: "Montserrat", sans-serif;
   font-size: 5cqw;
   font-weight: 700;
@@ -1029,7 +992,7 @@ main {
 }
 
 .page-7-main-copy {
-  margin: 0 0 3.703704%;
+  margin: 0 0 20%;
   font-family: "Montserrat", sans-serif;
   font-size: 2.2cqw;
   font-weight: 400;
@@ -1054,7 +1017,7 @@ main {
 
 .page-9-header {
   container-type: inline-size;
-  height:59.5cqw;
+  height: 59.5cqw;
 }
 
 .page-9-title {
@@ -1065,8 +1028,8 @@ main {
   line-height: 0.88;
   letter-spacing: 0;
   color: #050505;
-  position:relative;
-  z-index:2
+  position: relative;
+  z-index: 2;
 }
 
 .page-9-visual {
@@ -1104,7 +1067,6 @@ main {
 }
 
 .page-9-copy p {
-
   margin: 0;
   font-size: 106.25%;
   font-weight: 400;
@@ -1185,7 +1147,7 @@ main {
   font-weight: 600;
   line-height: 1.16;
   letter-spacing: -0.03em;
-  font-size: 4.8cqw
+  font-size: 4.8cqw;
 }
 
 /* @media (max-width: 1920px) {
@@ -1262,4 +1224,3 @@ main {
   display: block;
   object-fit: cover;
 }
-
