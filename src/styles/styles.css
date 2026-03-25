@@ -587,7 +587,7 @@ main {
   display: block;
   margin: 0;
   font-family: "Ekaterina Velikaya One";
-  font-size: 131.25%;
+  font-size: 2cqw;
   font-weight: 400;
   line-height: 1;
   color: #1a1a1a;
@@ -596,7 +596,7 @@ main {
 .page-5-block-title {
   margin: 5.555556% 0 1.481481%;
   font-family: "Montserrat", sans-serif;
-  font-size: 133.75%;
+  font-size: 2.01cqw;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -0.03em;
@@ -606,7 +606,7 @@ main {
 .page-5-block-copy {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 91.05%;
+  font-size: 1.34cqw;
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: -0.015em;
@@ -642,15 +642,15 @@ main {
 }
 
 .page-5-block-copy--wide {
-  max-width: 66.666667%;
+  max-width: 95%;
 }
 
 .page-5-block-copy--narrow {
-  max-width: 20.37037%;
+  max-width: 100%;
 }
 
 .page-5-block-copy--medium {
-  max-width: 46.296296%;
+  max-width: 88%;
 }
 
 .page-5-block-copy--medium + .page-5-block-copy--medium {
@@ -1178,7 +1178,7 @@ main {
   top: 12.5%;
   left: 3.240741%;
   width: 67.407407%;
-  container-type:inline-size;
+  container-type: inline-size;
 }
 
 .page-10-title {
