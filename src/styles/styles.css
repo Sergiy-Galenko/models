@@ -78,7 +78,6 @@ main {
   overflow: hidden;
   background: #fff;
   container-type: inline-size;
-  font-size: 1.481481cqw;
 }
 
 .page-1__header {
@@ -1151,7 +1150,7 @@ main {
   position: absolute;
   top: 4.62963%;
   left: 3.240741%;
-  font-size: 106.25%;
+  font-size: 152%;
   font-weight: 300;
   line-height: 1;
   letter-spacing: 0.01em;
@@ -1163,37 +1162,39 @@ main {
   top: 12.5%;
   left: 3.240741%;
   width: 67.407407%;
+  container-type:inline-size;
 }
 
 .page-10-title {
-  font-size: 131.75%;
   font-weight: 600;
   line-height: 1.16;
   letter-spacing: -0.03em;
+  font-size: 4.8cqw
+}
+
+/* @media (max-width: 1920px) {
+  .page-10-title {
+    ;
+  }
+}
+
+@media (max-width: 1024px) {
+  .page-10-title {
+    font-size: 4.8cqw;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-10-title {
+    font-size: 4.8cqw;
+  }
 }
 
 @media (max-width: 480px) {
   .page-10-title {
-    font-size: 215%;
+    font-size: 4.8cqw;
   }
-}
-
- @media (max-width: 768px) {
-  .page-10-title {
-    font-size: 215%;
-  }
-} 
-
- @media (max-width: 1024px) {
-  .page-10-title {
-    font-size: 215%;
-  }
-} 
-@media (max-width: 1920px) {
-  .page-10-title {
-    font-size: 164%;
-  }
-} 
+} */
 .page-10-number {
   position: absolute;
   top: 5.416667%;
