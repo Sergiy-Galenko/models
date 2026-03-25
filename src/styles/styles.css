@@ -550,7 +550,7 @@ main {
   display: block;
   margin: 0;
   font-family: "Ekaterina Velikaya One";
-  font-size: 131.25%;
+  font-size: 2cqw;
   font-weight: 400;
   line-height: 1;
   color: #1a1a1a;
@@ -559,7 +559,7 @@ main {
 .page-5-block-title {
   margin-bottom: 10%;
   font-family: "Montserrat", sans-serif;
-  font-size: 133.75%;
+  font-size: 2.01cqw;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -0.03em;
@@ -569,7 +569,7 @@ main {
 .page-5-block-copy {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 75%;
+  font-size: 1.34cqw;
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: -0.015em;
@@ -605,15 +605,15 @@ main {
 }
 
 .page-5-block-copy--wide {
-  max-width: 66.666667%;
+  max-width: 95%;
 }
 
 .page-5-block-copy--narrow {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .page-5-block-copy--medium {
-  max-width: 46.296296%;
+  max-width: 88%;
 }
 
 .page-5-block-copy--medium + .page-5-block-copy--medium {
@@ -645,8 +645,9 @@ main {
   background: #ddd6ca;
 }
 
-.page-6-photo {
+.page-6-photo  {
   position: absolute;
+  left: 5%; 
   inset: 0;
   width: 100%;
   height: 100%;
@@ -658,11 +659,14 @@ main {
 
 .page-6-meta {
   display: grid;
+  position: absolute;
+  left: 2%;
   grid-template-columns: 11.111111% 16.666667% 20.37037% 1fr;
   align-items: start;
-  column-gap: 1%;
-  margin-top: 4.259259%;
-  padding-inline: 1.5%;
+  column-gap: 7.148056%;
+  font-size: 1.8cqw;
+  margin-top: 0.259259%;
+  color: #000;
 }
 
 .page-6-meta p {
@@ -708,8 +712,8 @@ main {
 .page-6-date {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 300%;
-  font-weight: 700;
+  font-size: 4cqw;
+  font-weight: 800;
   line-height: 1;
   letter-spacing: -0.04em;
   color: #000;
@@ -726,26 +730,32 @@ main {
 }
 
 .page-8-top-copy {
+  
+  font-weight: 400;
   position: absolute;
-  top: 12.777778%;
+  top: 13.75%;
   left: 25.555556%;
   width: 23.222222%;
-  font-size: 131.25%;
+  font-size: 2cqw;
   line-height: 1.2;
   letter-spacing: -0.02em;
+  color: #695c5c;
 }
 
 .page-8-note {
   position: absolute;
-  font-size: 93.75%;
-  font-weight: 600;
+  font-size: 1.2cqw;
+  font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
 
 .page-8-note-left {
+  
   left: 4.166667%;
   top: 40%;
+ 
+  
 }
 
 .page-8-note-top {
@@ -813,13 +823,15 @@ main {
 }
 
 .page-8-middle-copy {
+  
   position: absolute;
   left: 49.62963%;
   top: 63.888889%;
-  width: 24.611111%;
-  font-size: 131.25%;
+  width: 19.611111%;
+  font-size: 2cqw;
   line-height: 1.08;
   letter-spacing: -0.02em;
+  color: #695c5c;
 }
 
 .page-8-bottom-copy {
@@ -827,9 +839,10 @@ main {
   left: 4.166667%;
   bottom: 14.351944%;
   width: 48.518519%;
-  font-size: 131.25%;
+  font-size: 2cqw;
   line-height: 1.08;
   letter-spacing: -0.02em;
+  color: #695c5c;
 }
 /* ----------------- Page 8 ----------------- */
 
