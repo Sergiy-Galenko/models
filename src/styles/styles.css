@@ -762,26 +762,32 @@ main {
 }
 
 .page-8-top-copy {
+  
+  font-weight: 400;
   position: absolute;
-  top: 12.777778%;
+  top: 13.75%;
   left: 25.555556%;
   width: 23.222222%;
-  font-size: 131.25%;
+  font-size: 2cqw;
   line-height: 1.2;
   letter-spacing: -0.02em;
+  color: #695c5c;
 }
 
 .page-8-note {
   position: absolute;
-  font-size: 93.75%;
-  font-weight: 600;
+  font-size: 1.2cqw;
+  font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
 
 .page-8-note-left {
+  
   left: 4.166667%;
   top: 40%;
+ 
+  
 }
 
 .page-8-note-top {
@@ -849,13 +855,15 @@ main {
 }
 
 .page-8-middle-copy {
+  
   position: absolute;
   left: 49.62963%;
   top: 63.888889%;
-  width: 24.611111%;
-  font-size: 131.25%;
+  width: 19.611111%;
+  font-size: 2cqw;
   line-height: 1.08;
   letter-spacing: -0.02em;
+  color: #695c5c;
 }
 
 .page-8-bottom-copy {
@@ -863,9 +871,10 @@ main {
   left: 4.166667%;
   bottom: 14.351944%;
   width: 48.518519%;
-  font-size: 131.25%;
+  font-size: 2cqw;
   line-height: 1.08;
   letter-spacing: -0.02em;
+  color: #695c5c;
 }
 /* ----------------- Page 8 ----------------- */
 
