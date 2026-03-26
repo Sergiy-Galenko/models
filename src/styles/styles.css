@@ -388,13 +388,13 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 58.333333%;
+  width: 100cqi;
+  height: 58cqi;
   overflow: hidden;
 }
 .page-3-top-image {
-  width: 100%;
-  height: 100%;
+  width: 100cqi;
+  height: 58.3cqi;
   display: block;
   object-fit: cover;
   object-position: center top;
@@ -402,16 +402,16 @@ main {
 .page-3-top-menu {
   background-color: white;
   position: absolute;
-  width: 100%;
-  min-height: 1.851944%;
+  width: 100cqi;
+  min-height: 1.85cqi;
   left: 50%;
-  top: 18.055556%;
+  top: 18.055556cqi;
   transform: translateX(-50%);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 4.166667%;
-  font-size: 81.25%;
+  padding: 0 4.17cqi;
+  font-size: 1.2cqi;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 0;
@@ -419,18 +419,18 @@ main {
 }
 .page-3-copy {
   position: absolute;
-  top: 58.333333%;
+  top: 58.3cqi;
   left: 0;
-  width: 100%;
-  min-height: 16.049444%;
-  padding: 2.703704% 5.092593% 2.777778%;
+  width: 100cqi;
+  min-height: 16cqi;
+  padding: 2.7cqi 5.09cqi 2.78cqi;
   background: #ffffff;
 }
 .page-3-copy p {
   margin: 0;
-  max-width: 53.703704%;
+  max-width: 53.7cqi;
   font-family: "Montserrat", sans-serif;
-  font-size: 75%;
+  font-size: 1.5cqi;
   line-height: 1.08;
   letter-spacing: -0.02em;
   color: #202020;
@@ -439,13 +439,13 @@ main {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 100%;
-  height: 30.555556%;
+  width: 100cqi;
+  height: 30.5cqi;
   overflow: hidden;
 }
 .page-3-bottom-image {
-  width: 100%;
-  height: 100%;
+  width: 100cqi;
+  height: 30.5cqi;
   display: block;
   object-fit: cover;
   object-position: center;
@@ -453,12 +453,12 @@ main {
 .page-3-bottom-title {
   position: absolute;
   left: 50%;
-  bottom: 40%;
+  bottom: 12.2cqi;
   transform: translateX(-50%);
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  width: 100%;
-  font-size: 280%;
+  width: 100cqi;
+  font-size: 5.7cqi;
   font-weight: 400;
   line-height: 1;
   letter-spacing: -0.04em;
@@ -467,7 +467,7 @@ main {
 }
 .page-4-line {
   position: absolute;
-  height: 0.185185%;
+  height: 0.185cqi;
   background: #bfbfbf;
 }
 
@@ -476,8 +476,8 @@ main {
   content: "";
   position: absolute;
   top: 50%;
-  width: 0.925926%;
-  height: 0.925926%;
+  width: 0.92cqi;
+  height: 0.92cqi;
   border-radius: 50%;
   background: #bfbfbf;
   transform: translateY(-50%);
@@ -492,23 +492,23 @@ main {
 }
 
 .page-4-line-top {
-  top: 19.444444%;
+  top: 19.444444cqi;
   left: 0;
-  width: 25%;
+  width: 25cqi;
 }
 
 .page-4-line-bottom {
-  left: 30.555556%;
-  bottom: 14.814815%;
-  width: 69.444444%;
+  left: 30.5cqi;
+  bottom: 14.8cqi;
+  width: 69.4cqi;
 }
 
 .page-4-image-wrap {
   position: absolute;
   left: 0;
-  top: 27.037037%;
-  width: 25%;
-  height: 58.333333%;
+  top: 27.03cqi;
+  width: 25cqi;
+  height: 58.3cqi;
   overflow: hidden;
 }
 
@@ -516,21 +516,20 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: grayscale(1) contrast(0.8) brightness(1.12);
   opacity: 0.7;
 }
 
 .page-4-header {
   position: absolute;
-  top: 21.111111%;
-  left: 30.555556%;
-  width: 55.555556%;
+  top: 21.1cqi;
+  left: 30.5cqi;
+  width: 55.5cqi;
 }
 
 .page-4-title {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 340%;
+  font-size: 5.9cqi;
   font-weight: 700;
   line-height: 0.95;
   letter-spacing: -0.04em;
@@ -539,24 +538,24 @@ main {
 
 .page-4-intro {
   position: absolute;
-  top: 43.055556%;
-  left: 29.5%;
-  width: 74%;
+  top: 43.05cqi;
+  left: 29.5cqi;
+  width: 74cqi;
   display: grid;
-  grid-template-columns: 0.4fr 1fr;
-  column-gap: 15%;
-  row-gap: 25%;
+  grid-template-columns: 0.5fr 1fr;
+  column-gap: 15cqi;
+  row-gap: 3cqi;
   color: #7f7f7f;
 }
 
 .page-4-intro p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 70%;
+  font-size: 1.03cqi;
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: 0;
-  padding-left: 6%;
+  padding-left: 6cqi;
 }
 
 .page-4-intro-left {
@@ -573,23 +572,20 @@ main {
 
 .page-4-body {
   position: absolute;
-  left: 30.555556%;
-  bottom: 19%;
-  width: 61.111111%;
+  left: 30.5cqi;
+  bottom: 19cqi;
+  width: 66cqi;
 }
 
 .page-4-body p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 112%;
+  font-size: 2.4cqi;
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0;
   color: #101010;
 }
-/* ----------------- Page 4 ----------------- */
-
-/* ----------------- Page 5 ----------------- */
 
 .page-5-photo {
   position: absolute;
@@ -604,24 +600,24 @@ main {
 }
 
 .page-5-photo-left {
-  top: 0.925926%;
-  left: 0.925926%;
-  width: 22.685185%;
-  height: 39.259259%;
+  top: 1cqi;
+  left: 0.92cqi;
+  width: 22.68cqi;
+  height: 39.26cqi;
 }
 
 .page-5-photo-right {
-  top: 30.092593%;
+  top: 30.09cqi;
   right: 0;
-  width: 49.722222%;
-  height: 39.722222%;
+  width: 49.7cqi;
+  height: 39.7cqi;
 }
 
 .page-5-photo-bottom-left {
-  left: 4.166667%;
-  bottom: 5.648056%;
-  width: 24.166667%;
-  height: 29.351944%;
+  left: 4.15cqi;
+  bottom: 5.6cqi;
+  width: 24cqi;
+  height: 29cqi;
 }
 
 .page-5-block {
@@ -640,7 +636,7 @@ main {
 }
 
 .page-5-block-title {
-  margin-bottom: 10%;
+  margin-bottom: 10cqi;
   font-family: "Montserrat", sans-serif;
   font-size: 2.01cqw;
   font-weight: 800;
@@ -660,31 +656,31 @@ main {
 }
 
 .page-5-block-top {
-  top: 2.777778%;
-  left: 25.648056%;
-  width: 110%;
+  top: 2.7cqi;
+  left: 25.64cqi;
+  width: 110cqi;
 }
 
 .page-5-block-middle {
-  top: 36%;
-  left: 25.648056%;
-  width: 22.222222%;
+  top: 36cqi;
+  left: 25.6cqi;
+  width: 22.2cqi;
 }
 
 .page-5-block-middle .page-5-block-number {
   position: absolute;
-  top: -80%;
-  right: -5%;
+  top: -80cqi;
+  right: -5cqi;
 }
 
 .page-5-block-middle .page-5-block-title {
-  margin-top: 8.240741%;
+  margin-top: 8.2cqi;
 }
 
 .page-5-block-bottom {
-  bottom: 11.203704%;
-  left: 29.907407%;
-  width: 47.222222%;
+  bottom: 11.2cqi;
+  left: 29.9cqi;
+  width: 47.2cqi;
 }
 
 .page-5-block-copy--wide {
@@ -700,7 +696,7 @@ main {
 }
 
 .page-5-block-copy--medium + .page-5-block-copy--medium {
-  margin-top: 2.592593%;
+  margin-top: 2.59cqi;
 }
 
 .page-5-photo-left .page-5-photo-image {
@@ -714,10 +710,6 @@ main {
 .page-5-photo-bottom-left .page-5-photo-image {
   object-position: center 34%;
 }
-/* ----------------- Page 5 ----------------- */
-
-/* ----------------- Page 6 ----------------- */
-
 .page-6-photo-frame {
   position: relative;
   top: -3.011111%;
