@@ -228,6 +228,7 @@ main {
   padding-left: 2.2%;
 }
 .page2-main-top {
+  display:flex;
   position: relative;
   width: 100%;
   min-height: 58cqw;
