@@ -1061,17 +1061,17 @@ main {
   letter-spacing: 0;
   color: #050505;
   position:relative;
-  z-index:2
+  z-index:2;
 }
 
 .page-9-visual {
   position: relative;
   z-index: 1;
   margin: -3.3% 0 0;
-  width: 97.222222%;
+  width: 100cqw;
   height: 41cqw;
   overflow: hidden;
-  left: 1.388889%;
+
 }
 
 .page-9-main-image {
@@ -1083,14 +1083,14 @@ main {
 }
 
 .page-9-copy-grid {
-  position: relative;
   display: grid;
-  grid-template-columns: 31.018519% 1fr;
-  column-gap: 13.888889%;
-  row-gap: 20.833333%;
-  margin-top: 2.314815%;
+  top:2.7cqw;
   padding-inline: 0.37037%;
+  height:37.7cqw;
   align-items: start;
+  grid-template-rows: auto 16.9cqw auto;
+  grid-template-columns: auto 19.7cqw auto;
+  container-type: inline-size;
 }
 
 .page-9-copy {
@@ -1101,7 +1101,6 @@ main {
 .page-9-copy p {
 
   margin: 0;
-  font-size: 106.25%;
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: -0.02em;
@@ -1110,40 +1109,41 @@ main {
 .page-9-copy-left-top {
   grid-column: 1;
   grid-row: 1;
-  max-width: 21.296296%;
+  width: 20cqw;
+  height:6.2cqw;
+  font-size:1.4cqw
 }
 
 .page-9-copy-right {
-  grid-column: 2;
-  grid-row: 1 / span 2;
+  grid-column: 3;
+  grid-row: 2;
   align-self: start;
-  padding-top: 2.592593%;
-  max-width: 38.888889%;
+  width:53cqw;
+  height:12cqw;
 }
 
 .page-9-subtitle {
-  position: absolute;
-  top: 13.166667%;
   left: 48.148148%;
   font-family: "Ekaterina Velikaya One", serif;
-  font-size: 309.375%;
+  font-size: 4.65cqw;
   font-weight: 400;
   line-height: 0.9;
   color: #050505;
 }
 
 .page-9-copy-right-body {
-  max-width: 38.888889%;
-  position: absolute;
-  top: 20.888889%;
-  left: 53.703704%;
+  max-width: 49.8cqw;
+  height:13.5cqw;
+  font-size:1.9cqw;
+  padding-left:4cqw
 }
 
 .page-9-copy-left-bottom {
   grid-column: 1;
-  grid-row: 2;
-  max-width: 26.574074%;
+  grid-row: 3;
+  width:25.8cqw;
   align-self: start;
+  font-size:1.4cqw;
 }
 
 /* ----------------- Page 10 ----------------- */
