@@ -227,26 +227,27 @@ main {
   gap: 1.8cqw;
   padding-left: 2.2%;
 }
-
-.page-2-wordmark {
+.page2-main-top{
   position: relative;
   width: 100%;
   min-height: 58cqw;
   overflow: visible;
   margin: 0;
 }
+
 .page-2-wordmark-p {
   font-family: "Ekaterina Velikaya One";
   position: absolute;
-  font-size: 34cqw;
-  top: -20cqw;
-  left: -14.8cqw;
+  font-size: 38cqw;
+  top: 31cqw;
+  left: -22cqw;
   line-height: 0.84;
   letter-spacing: 0;
   font-weight: 400;
   z-index: 1;
   color: #000000;
 }
+
 .page-2-wordmark-racticality {
   position: absolute;
   font-family: "Ekaterina Velikaya One";
@@ -254,8 +255,8 @@ main {
   font-weight: 400;
   line-height: 0.94;
   letter-spacing: 0;
-  top: 13.8cqw;
-  left: 33.8cqw;
+  top: 31cqw;
+  left: 30.5cqw;
   z-index: 2;
   color: #000000;
 }
@@ -266,8 +267,8 @@ main {
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0;
-  top: 31.9cqw;
-  left: 49.8cqw;
+  top: 35.9cqw;
+  left: 45.6cqw;
   z-index: 2;
   color: #000000;
 }
@@ -275,8 +276,8 @@ main {
   position: absolute;
   line-height: 100%;
   font-size: 6cqw;
-  top: 38.8cqw;
-  left: 31.3cqw;
+  top: 42.8cqw;
+  left: 28cqw;
   z-index: 2;
   font-weight: 400;
   color: #000000;
