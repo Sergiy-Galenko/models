@@ -1107,7 +1107,7 @@ main {
   position: absolute;
   top: 4.62963%;
   left: 3.240741%;
-  font-size: 152%;
+  font-size: 2.3cqw;
   font-weight: 300;
   line-height: 1;
   letter-spacing: 0.01em;
@@ -1158,10 +1158,11 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 62.5%;
+  font-size: 1.2cqw;
   font-weight: 300;
   line-height: 1;
   letter-spacing: 0;
+  height:1.5cqw;
   color: #8e8e8e;
 }
 
