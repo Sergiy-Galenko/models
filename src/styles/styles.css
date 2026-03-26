@@ -1035,7 +1035,7 @@ main {
   padding-inline: 0.37037%;
   height:37.7cqw;
   align-items: start;
-  grid-template-rows: auto 16.9cqw auto;
+  grid-template-rows: 9cqw 16.9cqw auto;
   grid-template-columns: auto 19.7cqw auto;
   container-type: inline-size;
 }
