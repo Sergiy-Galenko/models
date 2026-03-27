@@ -24,6 +24,13 @@ main {
 }
 
 @font-face {
+  font-family: "Ekaterina Velikaya One";
+  src: url("../../fonts/EkaterinaVelikayaOne.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "Shelley Volante";
   src: url("../../fonts/1ShelleyVolante.woff2") format("woff2");
   font-weight: 400;
@@ -488,15 +495,15 @@ main {
 }
 
 .page-4-line-top {
-  top: 19.444444cqi;
-  left: 0;
-  width: 25cqi;
+  top: 19.5cqi;
+  left: -3cqi;
+  width: 28cqi;
 }
 
 .page-4-line-bottom {
-  left: 30.5cqi;
+  left: 30cqi;
   bottom: 14.8cqi;
-  width: 69.4cqi;
+  width: 74cqi;
 }
 
 .page-4-image-wrap {
@@ -536,7 +543,7 @@ main {
   position: absolute;
   top: 43.05cqi;
   left: 29.5cqi;
-  width: 74cqi;
+  width: 70cqi;
   display: grid;
   grid-template-columns: 0.5fr 1fr;
   column-gap: 15cqi;
@@ -547,11 +554,12 @@ main {
 .page-4-intro p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.03cqi;
+  font-size: 1.4cqi;
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: 0;
-  padding-left: 6cqi;
+  padding-left: 1cqi;
+  width: 18cqi;
 }
 
 .page-4-intro-left {
@@ -596,8 +604,8 @@ main {
 }
 
 .page-5-photo-left {
-  top: 1cqi;
-  left: 0.92cqi;
+  top: 0;
+  left: 0;
   width: 22.68cqi;
   height: 39.26cqi;
 }
@@ -623,16 +631,24 @@ main {
 
 .page-5-block-number {
   display: block;
-  margin: 0;
-  font-family: "Ekaterina Velikaya One";
+  margin-bottom: 6cqi;
+  font-family: "Pinyon Script", cursive;
   font-size: 2cqw;
   font-weight: 400;
   line-height: 1;
   color: #1a1a1a;
 }
-
+.numberone {
+  font-size: 1.3cqw;
+}
+.numbertwo {
+  font-size: 1.3cqw;
+}
+.numberthree {
+  font-size: 1.3cqw;
+}
 .page-5-block-title {
-  margin-bottom: 10cqi;
+  margin-bottom: 1.75cqi;
   font-family: "Montserrat", sans-serif;
   font-size: 2.01cqw;
   font-weight: 800;
@@ -644,7 +660,7 @@ main {
 .page-5-block-copy {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.34cqw;
+  font-size: 1.4cqw;
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: -0.015em;
@@ -654,19 +670,19 @@ main {
 .page-5-block-top {
   top: 2.7cqi;
   left: 25.64cqi;
-  width: 110cqi;
+  width: 72cqi;
 }
 
 .page-5-block-middle {
-  top: 36cqi;
+  top: 29cqi;
   left: 25.6cqi;
   width: 22.2cqi;
 }
 
 .page-5-block-middle .page-5-block-number {
   position: absolute;
-  top: -80cqi;
-  right: -5cqi;
+  top: 0.4cqi;
+  right: -1cqi;
 }
 
 .page-5-block-middle .page-5-block-title {
@@ -708,10 +724,10 @@ main {
 }
 .page-6-photo-frame {
   position: relative;
-  top: -3.011111%;
-  left: -3.011111%;
-  width: 101.111111%;
-  height: 70.833333%;
+  top: -3%;
+  left: -3%;
+  width: 101%;
+  height: 70.8%;
   overflow: hidden;
   background: #ddd6ca;
 }
@@ -1066,11 +1082,13 @@ main {
 }
 
 .page-9-subtitle {
-  padding-left: 4cqw;
-  font-family: "Pinyon Script", cursive;
-  font-size: 5cqw;
+  left: 48.148148%;
+  font-family: "Ekaterina Velikaya One", serif;
+  font-size: 4.65cqw;
   font-weight: 400;
+  line-height: 0.9;
   color: #050505;
+  overflow: hidden;
 }
 
 .page-9-copy-right-body {
