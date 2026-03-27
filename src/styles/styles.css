@@ -541,44 +541,48 @@ main {
 
 .page-4-intro {
   position: absolute;
-  top: 43.05cqi;
-  left: 29.5cqi;
+  top: 40.5cqi;
+  left: 30.5cqi;
   width: 70cqi;
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
-  column-gap: 15cqi;
-  row-gap: 3cqi;
+  grid-template-columns: auto 12.5cqw auto;
+  grid-template-rows: auto 10cqw auto;
   color: #7f7f7f;
 }
 
 .page-4-intro p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.4cqi;
+  font-size: 1.5cqi;
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: 0;
-  padding-left: 1cqi;
-  width: 18cqi;
 }
 
 .page-4-intro-left {
-  max-width: 100%;
+  grid-column: 1;
+  grid-row:1;
+  width: 16.5cqw;
+  height:7cqw
 }
 
 .page-4-intro-right {
-  max-width: 90%;
+  width:39cqw;
+  grid-column:3;
+  grid-row:1
 }
 
 .page-4-intro-left-bottom {
   grid-column: 1;
+  grid-row:3;
+  width:17cqw
 }
 
 .page-4-body {
   position: absolute;
   left: 30.5cqi;
   bottom: 19cqi;
-  width: 66cqi;
+
 }
 
 .page-4-body p {
