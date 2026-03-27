@@ -999,10 +999,12 @@ main {
 .page-9-header {
   container-type: inline-size;
   height: 59.5cqw;
+  line-height:1
 }
 
 .page-9-title {
-  padding-top: 9cqw;
+  margin-top:9cqw;
+  padding-top: 0;
   font-family: "Ekaterina Velikaya One", serif;
   font-size: 14cqw;
   font-weight: 400;
