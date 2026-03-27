@@ -503,48 +503,81 @@ main {
 }
 .page-4-intro {
   position: absolute;
-  top: 40.5cqi;
+  top: 41.5cqi;
   left: 30.5cqi;
   width: 70cqi;
   display: grid;
-  grid-template-columns: auto 12.5cqw auto;
-  grid-template-rows: auto 10cqw auto;
+  grid-template-columns: auto 2.5cqw auto;
+  grid-template-rows: auto 2cqw auto;
   color: #7f7f7f;
 }
 .page-4-intro p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5cqi;
+  font-size: 1.3cqi;
   font-weight: 400;
   line-height: 1.16;
   letter-spacing: 0;
 }
 .page-4-intro-left {
   grid-column: 1;
-  grid-row:1;
+  grid-row: 1;
   width: 16.5cqw;
-  height:7cqw
+  height: 7cqw;
+}
+.page-4-span1 {
+  grid-column: 1;
+  grid-row: 1;
+  padding-inline: 1cqi;
+}
+.page-4-span2 {
+  grid-column: 1;
+  grid-row: 1;
+  padding-inline: 1cqi;
+  width: 17cqw;
+}
+.page-4-span3 {
+  grid-column: 1;
+  grid-row: 1;
+  padding-inline: 1cqi;
+}
+.page-4-span4 {
+  grid-column: 1;
+  grid-row: 1;
+  padding-inline: 1cqi;
+}
+.page-4-span5 {
+  grid-column: 1;
+  grid-row: 3;
+  padding-left: 1cqi;
+  padding-right: 2cqi;
+}
+.page-4-span6 {
+  grid-column: 1;
+  grid-row: 3;
+  padding-left: 1cqi;
 }
 .page-4-intro-right {
-  width:39cqw;
-  grid-column:3;
-  grid-row:1
+  width: 38cqw;
+  grid-column: 3;
+  grid-row: 1;
 }
 .page-4-intro-left-bottom {
   grid-column: 1;
-  grid-row:3;
-  width:17cqw
+  grid-row: 3;
+  width: 17.1cqw;
 }
 .page-4-body {
   position: absolute;
   left: 30.5cqi;
   bottom: 19cqi;
-
+  width: 65cqi;
+  padding-bottom: 3cqi;
 }
 .page-4-body p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.4cqi;
+  font-size: 2.35cqi;
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0;
