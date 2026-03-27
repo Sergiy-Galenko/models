@@ -228,7 +228,7 @@ main {
   padding-left: 2.2%;
 }
 .page2-main-top {
-  display:flex;
+  display: flex;
   position: relative;
   width: 100%;
   min-height: 58cqw;
@@ -237,11 +237,11 @@ main {
 }
 
 .page-2-wordmark-p {
-  font-family: "Ekaterina Velikaya One";
+  font-family: "Pinyon Script", cursive;
   position: absolute;
-  font-size: 38cqw;
-  top: 31cqw;
-  left: -22cqw;
+  font-size: 60cqw;
+  top: 4cqw;
+  left: 1cqw;
   line-height: 0.84;
   letter-spacing: 0;
   font-weight: 400;
@@ -251,13 +251,13 @@ main {
 
 .page-2-wordmark-racticality {
   position: absolute;
-  font-family: "Ekaterina Velikaya One";
+  font-family: "Pinyon Script", cursive;
   font-size: 9.1cqw;
   font-weight: 400;
   line-height: 0.94;
   letter-spacing: 0;
-  top: 31cqw;
-  left: 30.5cqw;
+  top: 30cqw;
+  left: 32.5cqw;
   z-index: 2;
   color: #000000;
 }
@@ -999,11 +999,11 @@ main {
 .page-9-header {
   container-type: inline-size;
   height: 59.5cqw;
-  line-height:1
+  line-height: 1;
 }
 
 .page-9-title {
-  margin-top:9cqw;
+  margin-top: 9cqw;
   padding-top: 0;
   font-family: "Ekaterina Velikaya One", serif;
   font-size: 14cqw;
@@ -1011,8 +1011,8 @@ main {
   line-height: 0.88;
   letter-spacing: 0;
   color: #050505;
-  position:relative;
-  z-index:2
+  position: relative;
+  z-index: 2;
 }
 
 .page-9-visual {
@@ -1022,7 +1022,6 @@ main {
   width: 100cqw;
   height: 41cqw;
   overflow: hidden;
-
 }
 
 .page-9-main-image {
@@ -1035,9 +1034,9 @@ main {
 
 .page-9-copy-grid {
   display: grid;
-  top:2.7cqw;
+  top: 2.7cqw;
   padding-inline: 0.37037%;
-  height:37.7cqw;
+  height: 37.7cqw;
   align-items: start;
   grid-template-rows: 9cqw 16.9cqw auto;
   grid-template-columns: auto 19.7cqw auto;
@@ -1060,16 +1059,16 @@ main {
   grid-column: 1;
   grid-row: 1;
   width: 20cqw;
-  height:6.2cqw;
-  font-size:1.5cqw
+  height: 6.2cqw;
+  font-size: 1.5cqw;
 }
 
 .page-9-copy-right {
   grid-column: 3;
   grid-row: 2;
   align-self: start;
-  width:53cqw;
-  height:12cqw;
+  width: 53cqw;
+  height: 12cqw;
 }
 
 .page-9-subtitle {
@@ -1079,22 +1078,22 @@ main {
   font-weight: 400;
   line-height: 0.9;
   color: #050505;
-  overflow:hidden
+  overflow: hidden;
 }
 
 .page-9-copy-right-body {
   max-width: 49.8cqw;
-  height:13.5cqw;
-  font-size:1.9cqw;
-  padding-left:4cqw
+  height: 13.5cqw;
+  font-size: 1.9cqw;
+  padding-left: 4cqw;
 }
 
 .page-9-copy-left-bottom {
   grid-column: 1;
   grid-row: 3;
-  width:25.8cqw;
+  width: 25.8cqw;
   align-self: start;
-  font-size:1.5cqw;
+  font-size: 1.5cqw;
 }
 
 /* ----------------- Page 10 ----------------- */
@@ -1167,7 +1166,7 @@ main {
   font-weight: 300;
   line-height: 1;
   letter-spacing: 0;
-  height:1.5cqw;
+  height: 1.5cqw;
   color: #8e8e8e;
 }
 
