@@ -1013,10 +1013,9 @@ main {
 }
 
 .page-9-title {
-  margin-top: 9cqw;
   padding-top: 0;
-  font-family: "Ekaterina Velikaya One", serif;
-  font-size: 14cqw;
+  font-family: "Pinyon Script", cursive;
+  font-size: 17cqw;
   font-weight: 400;
   line-height: 0.88;
   letter-spacing: 0;
@@ -1083,12 +1082,12 @@ main {
 
 .page-9-subtitle {
   left: 48.148148%;
-  font-family: "Ekaterina Velikaya One", serif;
+  font-family: "Pinyon Script", cursive;
   font-size: 4.65cqw;
   font-weight: 400;
   line-height: 0.9;
   color: #050505;
-  overflow: hidden;
+  padding-left: 4cqw;
 }
 
 .page-9-copy-right-body {
