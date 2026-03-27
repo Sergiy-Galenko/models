@@ -22,7 +22,6 @@ main {
   justify-content: center;
   gap: 2rem;
 }
-
 @font-face {
   font-family: "Ekaterina Velikaya One";
   src: url("../../fonts/EkaterinaVelikayaOne.woff2") format("woff2");
@@ -94,11 +93,9 @@ main {
   letter-spacing: -0.045em;
   color: #111;
 }
-
 .page-1__title span {
   display: block;
 }
-
 .page-1__dates {
   position: absolute;
   top: 48%;
@@ -110,7 +107,6 @@ main {
   align-items: center;
   pointer-events: none;
 }
-
 .page-1__date {
   position: static;
   font-family: "Montserrat", sans-serif;
@@ -120,13 +116,11 @@ main {
   letter-spacing: -0.03em;
   color: #111;
 }
-
 .page-1__date--left,
 .page-1__date--right {
   left: auto;
   right: auto;
 }
-
 .page-1__ticket-wrap {
   position: absolute;
   top: 17%;
@@ -134,17 +128,14 @@ main {
   transform: translateX(-50%);
   width: 32%;
 }
-
 .page-1__figure {
   margin: 0;
 }
-
 .page-1__ticket-image {
   width: 100%;
   height: auto;
   display: block;
 }
-
 .page-1__text-parent {
   position: absolute;
   left: 50%;
@@ -152,7 +143,6 @@ main {
   transform: translateX(-50%);
   width: 90%;
 }
-
 .page-1__text {
   margin: 0 auto;
   text-align: center;
@@ -183,19 +173,14 @@ main {
 .page-1__text-lines span:nth-child(4) {
   max-width: 100%;
 }
-
 .page-1__text strong {
   font-weight: 700;
 }
-
-/* ----------------- Page 1 ----------------- */
-
 .page-2 {
   display: flex;
   flex-direction: column;
   color: #000000;
 }
-
 .page-2-nav {
   width: 100%;
   display: flex;
@@ -209,7 +194,6 @@ main {
   cursor: default;
   color: #000000;
 }
-
 .page-2-stage {
   flex: 1;
   display: flex;
@@ -236,7 +220,6 @@ main {
   overflow: visible;
   margin: 0;
 }
-
 .page-2-wordmark-p {
   font-family: "Pinyon Script", cursive;
   position: absolute;
@@ -249,7 +232,6 @@ main {
   z-index: 1;
   color: #000000;
 }
-
 .page-2-wordmark-racticality {
   position: absolute;
   font-family: "Pinyon Script", cursive;
@@ -284,7 +266,6 @@ main {
   font-weight: 400;
   color: #000000;
 }
-
 .page-2-text-span-dark {
   font-family: "Montserrat", sans-serif;
   display: block;
@@ -305,7 +286,6 @@ main {
   color: #9a9a9a;
   letter-spacing: 0;
 }
-
 .page-2-layout {
   display: flex;
   flex-wrap: nowrap;
@@ -315,7 +295,6 @@ main {
   width: 100%;
   min-height: 18cqw;
 }
-
 .page-2-copy {
   flex: 1 1 auto;
   max-width: 64%;
@@ -329,7 +308,6 @@ main {
   min-width: 0;
   padding-left: 0.3cqw;
 }
-
 .page-2-copy-line {
   position: relative;
   display: block;
@@ -339,7 +317,6 @@ main {
   border-radius: 999px;
   flex-shrink: 0;
 }
-
 .page-2-copy-line::before,
 .page-2-copy-line::after {
   content: "";
@@ -351,22 +328,18 @@ main {
   border-radius: 50%;
   transform: translateY(-50%);
 }
-
 .page-2-copy-line::before {
   left: -0.2cqw;
 }
-
 .page-2-copy-line::after {
   right: -0.2cqw;
 }
-
 .page-2-copy-text {
   margin: 0;
   padding: 1.5cqw 1.25cqw;
   display: flex;
   flex-direction: column;
 }
-
 .page-2-media-image-secondary {
   display: block;
   flex: 0 0 31.8%;
@@ -375,7 +348,6 @@ main {
   aspect-ratio: 256 / 200;
   object-fit: cover;
 }
-
 .page-2-media-image-primary {
   display: block;
   flex: 0 0 24%;
@@ -473,7 +445,6 @@ main {
   height: 0.185cqi;
   background: #bfbfbf;
 }
-
 .page-4-line::before,
 .page-4-line::after {
   content: "";
@@ -485,27 +456,22 @@ main {
   background: #bfbfbf;
   transform: translateY(-50%);
 }
-
 .page-4-line::before {
   left: 0;
 }
-
 .page-4-line::after {
   right: 0;
 }
-
 .page-4-line-top {
   top: 19.5cqi;
   left: -3cqi;
   width: 28cqi;
 }
-
 .page-4-line-bottom {
   left: 30cqi;
   bottom: 14.8cqi;
   width: 74cqi;
 }
-
 .page-4-image-wrap {
   position: absolute;
   left: 0;
@@ -514,21 +480,18 @@ main {
   height: 58.3cqi;
   overflow: hidden;
 }
-
 .page-4-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   opacity: 0.7;
 }
-
 .page-4-header {
   position: absolute;
   top: 21.1cqi;
   left: 30.5cqi;
   width: 55.5cqi;
 }
-
 .page-4-title {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -538,7 +501,6 @@ main {
   letter-spacing: -0.04em;
   color: #000;
 }
-
 .page-4-intro {
   position: absolute;
   top: 40.5cqi;
@@ -549,7 +511,6 @@ main {
   grid-template-rows: auto 10cqw auto;
   color: #7f7f7f;
 }
-
 .page-4-intro p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -558,33 +519,28 @@ main {
   line-height: 1.16;
   letter-spacing: 0;
 }
-
 .page-4-intro-left {
   grid-column: 1;
   grid-row:1;
   width: 16.5cqw;
   height:7cqw
 }
-
 .page-4-intro-right {
   width:39cqw;
   grid-column:3;
   grid-row:1
 }
-
 .page-4-intro-left-bottom {
   grid-column: 1;
   grid-row:3;
   width:17cqw
 }
-
 .page-4-body {
   position: absolute;
   left: 30.5cqi;
   bottom: 19cqi;
 
 }
-
 .page-4-body p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -594,45 +550,38 @@ main {
   letter-spacing: 0;
   color: #101010;
 }
-
 .page-5-photo {
   position: absolute;
   overflow: hidden;
 }
-
 .page-5-photo-image {
   width: 100%;
   height: 100%;
   display: block;
   object-fit: cover;
 }
-
 .page-5-photo-left {
   top: 0;
   left: 0;
   width: 22.68cqi;
   height: 39.26cqi;
 }
-
 .page-5-photo-right {
   top: 30.09cqi;
   right: 0;
   width: 49.7cqi;
   height: 39.7cqi;
 }
-
 .page-5-photo-bottom-left {
   left: 4.15cqi;
   bottom: 5.6cqi;
   width: 24cqi;
   height: 29cqi;
 }
-
 .page-5-block {
   position: absolute;
   color: #111;
 }
-
 .page-5-block-number {
   display: block;
   margin-bottom: 6cqi;
@@ -654,13 +603,12 @@ main {
 .page-5-block-title {
   margin-bottom: 1.75cqi;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.01cqw;
+  font-size: 2.3cqw;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -0.03em;
   color: #000;
 }
-
 .page-5-block-copy {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -670,59 +618,47 @@ main {
   letter-spacing: -0.015em;
   color: #202020;
 }
-
 .page-5-block-top {
   top: 2.7cqi;
   left: 25.64cqi;
   width: 72cqi;
 }
-
 .page-5-block-middle {
   top: 29cqi;
   left: 25.6cqi;
   width: 22.2cqi;
 }
-
 .page-5-block-middle .page-5-block-number {
   position: absolute;
   top: 0.4cqi;
   right: -1cqi;
 }
-
 .page-5-block-middle .page-5-block-title {
   margin-top: 8.2cqi;
 }
-
 .page-5-block-bottom {
   bottom: 11.2cqi;
   left: 29.9cqi;
   width: 47.2cqi;
 }
-
 .page-5-block-copy--wide {
   max-width: 95%;
 }
-
 .page-5-block-copy--narrow {
   max-width: 100%;
 }
-
 .page-5-block-copy--medium {
-  max-width: 88%;
+  max-width: 90%;
 }
-
 .page-5-block-copy--medium + .page-5-block-copy--medium {
   margin-top: 2.59cqi;
 }
-
 .page-5-photo-left .page-5-photo-image {
   object-position: 42% center;
 }
-
 .page-5-photo-right .page-5-photo-image {
   object-position: center 44%;
 }
-
 .page-5-photo-bottom-left .page-5-photo-image {
   object-position: center 34%;
 }
@@ -735,7 +671,6 @@ main {
   overflow: hidden;
   background: #ddd6ca;
 }
-
 .page-6-photo {
   position: absolute;
   left: 5%;
@@ -747,59 +682,51 @@ main {
   object-position: center;
   filter: sepia(0.18) saturate(0.85) brightness(1.06);
 }
-
 .page-6-meta {
   display: grid;
   position: absolute;
   left: 2%;
-  grid-template-columns: 11.111111% 16.666667% 20.37037% 1fr;
+  grid-template-columns: 11.1% 16.6% 20.37% 1fr;
   align-items: start;
-  column-gap: 7.148056%;
+  column-gap: 7.14%;
   font-size: 1.8cqw;
-  margin-top: 0.259259%;
+  margin-top: 0.25%;
   color: #000;
 }
-
 .page-6-meta p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   color: #101010;
 }
-
 .page-6-meta span {
   display: block;
   white-space: nowrap;
 }
-
 .page-6-meta-label {
   font-size: 112.5%;
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: 0.01em;
 }
-
 .page-6-meta-note {
-  max-width: 14.814815%;
+  max-width: 14.81%;
   font-size: 137.5%;
   font-weight: 400;
   line-height: 1.08;
   letter-spacing: -0.02em;
 }
-
 .page-6-meta-copy {
-  max-width: 39.814815%;
+  max-width: 39.81%;
   font-size: 131.25%;
   font-weight: 400;
   line-height: 1.08;
   letter-spacing: -0.025em;
 }
-
 .page-6-footer {
   position: absolute;
-  right: 5.185185%;
-  bottom: 9.259259%;
+  right: 5.18%;
+  bottom: 9.25%;
 }
-
 .page-6-date {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -809,29 +736,23 @@ main {
   letter-spacing: -0.04em;
   color: #000;
 }
-/* ----------------- Page 6 ----------------- */
-
-/* ----------------- Page 8 ----------------- */
-
 .page-8-collage p,
 .page-8-note {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   color: #121212;
 }
-
 .page-8-top-copy {
   font-weight: 400;
   position: absolute;
   top: 13.75%;
-  left: 25.555556%;
-  width: 23.222222%;
+  left: 25.55%;
+  width: 23.22%;
   font-size: 2cqw;
   line-height: 1.2;
   letter-spacing: -0.02em;
   color: #695c5c;
 }
-
 .page-8-note {
   position: absolute;
   font-size: 1.2cqw;
@@ -839,105 +760,91 @@ main {
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
-
 .page-8-note-left {
-  left: 4.166667%;
+  left: 4.16%;
   top: 40%;
 }
-
 .page-8-note-top {
-  top: 24.074074%;
-  right: 5.092593%;
-  width: 20.37037%;
+  top: 24.07%;
+  right: 5.09%;
+  width: 20.37%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .page-8-note-right {
-  right: 8.240741%;
-  top: 40.740741%;
+  right: 8.24%;
+  top: 40.74%;
 }
-
 .page-8-note-bottom {
-  left: 4.166667%;
-  top: 63.333333%;
-  width: 18.37037%;
+  left: 4.16%;
+  top: 63.33%;
+  width: 18.37%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .page-8-photo {
   position: absolute;
   overflow: hidden;
   background: #ddd7ca;
 }
-
 .page-8-photo img {
   width: 100%;
   height: 100%;
   display: block;
   object-fit: cover;
 }
-
 .page-8-photo-small-left {
-  left: 0.462963%;
-  top: 43.981481%;
-  width: 22.685185%;
-  height: 17.12963%;
+  left: 0.46%;
+  top: 43.98%;
+  width: 22.68%;
+  height: 17.12%;
 }
-
 .page-8-photo-tall {
-  left: 25.092593%;
-  top: 24.537037%;
-  width: 23.148056%;
-  height: 37.685185%;
+  left: 25.09%;
+  top: 24.53%;
+  width: 23.14%;
+  height: 37.68%;
 }
-
 .page-8-photo-mid {
-  left: 49.62963%;
-  top: 33.333333%;
-  width: 23.148056%;
-  height: 28.888889%;
+  left: 49.62%;
+  top: 33.33%;
+  width: 23.14%;
+  height: 28.88%;
 }
-
 .page-8-photo-small-right {
-  right: 1.388889%;
-  top: 43.981481%;
-  width: 22.685185%;
-  height: 17.12963%;
+  right: 1.38%;
+  top: 43.98%;
+  width: 22.68%;
+  height: 17.12%;
 }
-
 .page-8-middle-copy {
   position: absolute;
-  left: 49.62963%;
-  top: 63.888889%;
-  width: 19.611111%;
+  left: 49.6%;
+  top: 63.8%;
+  width: 19.6%;
   font-size: 2cqw;
   line-height: 1.08;
   letter-spacing: -0.02em;
   color: #695c5c;
 }
-
 .page-8-bottom-copy {
   position: absolute;
-  left: 4.166667%;
-  bottom: 14.351944%;
-  width: 48.518519%;
+  left: 4.16%;
+  bottom: 14.35%;
+  width: 48.51%;
   font-size: 2cqw;
   line-height: 1.08;
   letter-spacing: -0.02em;
   color: #695c5c;
 }
-
 .page-7-header {
   position: absolute;
   top: 7.87037%;
   left: 2.777778%;
   width: 94.444444%;
 }
-
 .page-7-title {
   margin: 0;
   display: flex;
@@ -951,30 +858,26 @@ main {
   text-align: right;
   color: #000;
 }
-
 .page-7-graphic {
   position: absolute;
-  left: 8.333333%;
-  top: 26.388889%;
-  width: 55.555556%;
-  height: 47.222222%;
+  left: 8.33%;
+  top: 26.38%;
+  width: 55.5%;
+  height: 47.22%;
 }
-
 .page-7-graphic-image {
   width: 100%;
   height: 100%;
   display: block;
   object-fit: contain;
 }
-
 .page-7-side {
   position: absolute;
-  right: 2.777778%;
-  top: 51.388889%;
-  width: 29.166667%;
+  right: 2.77%;
+  top: 51.38%;
+  width: 29.16%;
   text-align: right;
 }
-
 .page-7-date {
   margin: 0 0 35%;
   font-family: "Montserrat", sans-serif;
@@ -985,7 +888,6 @@ main {
   letter-spacing: -0.04em;
   color: #000;
 }
-
 .page-7-main-copy {
   margin: 0 0 20%;
   font-family: "Montserrat", sans-serif;
@@ -995,7 +897,6 @@ main {
   letter-spacing: -0.03em;
   color: #111;
 }
-
 .page-7-sub-copy {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -1005,17 +906,14 @@ main {
   letter-spacing: -0.02em;
   color: #8f8f8f;
 }
-/* ----------------- Page 7 ----------------- */
 .page-9 {
-  padding: 1.388889% 0% 2.12963% 1.388889%;
+  padding: 1.38% 0% 2.12% 1.38%;
 }
-
 .page-9-header {
   container-type: inline-size;
   height: 59.5cqw;
   line-height: 1;
 }
-
 .page-9-title {
   padding-top: 0;
   font-family: "Pinyon Script", cursive;
@@ -1027,9 +925,8 @@ main {
   position: relative;
   z-index: 2;
 }
-
 .page-9-visual {
-  top:1.5cqw;
+  top: 1.5cqw;
   position: relative;
   z-index: 1;
   margin: -3.3% 0 0;
@@ -1037,7 +934,6 @@ main {
   height: 45cqw;
   overflow: hidden;
 }
-
 .page-9-main-image {
   width: 100%;
   height: 100%;
@@ -1045,30 +941,26 @@ main {
   object-fit: cover;
   object-position: center;
 }
-
 .page-9-copy-grid {
   display: grid;
   top: 2.7cqw;
-  padding-inline: 0.37037%;
+  padding-inline: 0.37%;
   height: 37.7cqw;
   align-items: start;
   grid-template-rows: 9cqw 16.9cqw auto;
   grid-template-columns: auto 19.7cqw auto;
   container-type: inline-size;
 }
-
 .page-9-copy {
   font-family: "Montserrat", sans-serif;
   color: #1c1c1c;
 }
-
 .page-9-copy p {
   margin: 0;
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: -0.02em;
 }
-
 .page-9-copy-left-top {
   grid-column: 1;
   grid-row: 1;
@@ -1076,7 +968,6 @@ main {
   height: 6.2cqw;
   font-size: 1.5cqw;
 }
-
 .page-9-copy-right {
   grid-column: 3;
   grid-row: 2;
@@ -1084,7 +975,6 @@ main {
   width: 53cqw;
   height: 12cqw;
 }
-
 .page-9-subtitle {
   left: 48.148148%;
   font-family: "Pinyon Script", cursive;
@@ -1094,14 +984,12 @@ main {
   color: #050505;
   padding-left: 4cqw;
 }
-
 .page-9-copy-right-body {
   max-width: 49.8cqw;
   height: 13.5cqw;
   font-size: 1.9cqw;
   padding-left: 4cqw;
 }
-
 .page-9-copy-left-bottom {
   grid-column: 1;
   grid-row: 3;
@@ -1109,9 +997,6 @@ main {
   align-self: start;
   font-size: 1.5cqw;
 }
-
-/* ----------------- Page 10 ----------------- */
-
 .page-10-kicker,
 .page-10-title,
 .page-10-meta,
@@ -1120,10 +1005,9 @@ main {
   font-family: "Montserrat", sans-serif;
   color: #121212;
 }
-
 .page-10-kicker {
   position: absolute;
-  top: 4.62963%;
+  top: 4.62%;
   left: 3.240741%;
   font-size: 2.3cqw;
   font-weight: 300;
@@ -1131,22 +1015,19 @@ main {
   letter-spacing: 0.01em;
   color: #8e8e8e;
 }
-
 .page-10-header {
   position: absolute;
   top: 12.5%;
-  left: 3.240741%;
-  width: 67.407407%;
+  left: 3.24%;
+  width: 67.4%;
   container-type: inline-size;
 }
-
 .page-10-title {
   font-weight: 600;
   line-height: 1.16;
   letter-spacing: -0.03em;
   font-size: 4.8cqw;
 }
-
 .page-10-number {
   position: absolute;
   top: 5.416667%;
@@ -1156,7 +1037,6 @@ main {
   background: #000;
   clip-path: polygon(27% 0, 84% 0, 84% 100%, 20% 100%, 20% 23%, 0 28%, 0 7%);
 }
-
 .page-10-number::before {
   content: "";
   position: absolute;
@@ -1167,12 +1047,11 @@ main {
   background: #000;
   clip-path: polygon(0 34%, 66% 0, 100% 0, 100% 100%, 0 100%);
 }
-
 .page-10-meta {
   position: absolute;
-  left: 3.240741%;
-  right: 3.240741%;
-  top: 34.62963%;
+  left: 3.24%;
+  right: 3.24%;
+  top: 34.62%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1183,16 +1062,14 @@ main {
   height: 1.5cqw;
   color: #8e8e8e;
 }
-
 .page-10-image-frame {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 1.851944%;
-  height: 61.111111%;
-  padding: 1.851944%;
+  bottom: 1.85%;
+  height: 61.1%;
+  padding: 1.85%;
 }
-
 .page-10-image {
   width: 100%;
   height: 100%;
