@@ -1025,11 +1025,12 @@ main {
 }
 
 .page-9-visual {
+  top:1.5cqw;
   position: relative;
   z-index: 1;
   margin: -3.3% 0 0;
   width: 100cqw;
-  height: 41cqw;
+  height: 45cqw;
   overflow: hidden;
 }
 
