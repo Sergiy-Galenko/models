@@ -550,7 +550,7 @@ main {
   grid-column: 1;
   grid-row: 3;
   padding-left: 1cqi;
-  padding-right: 2cqi;
+  padding-right: 5cqi;
 }
 .page-4-span6 {
   grid-column: 1;
