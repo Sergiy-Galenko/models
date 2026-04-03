@@ -769,58 +769,60 @@ main {
   letter-spacing: -0.04em;
   color: #000;
 }
-.page-8-collage p,
+.page-8 p,
 .page-8-note {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  color: #121212;
+  color: #000;
 }
-.page-8-top-copy {
-  font-weight: 400;
-  position: absolute;
-  top: 13.75%;
-  left: 25.55%;
-  width: 23.22%;
-  font-size: 2cqw;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
-  color: #695c5c;
+.page-8 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 1.5%;
+  padding-top: 14%;
+}
+
+.page-8-card-first {
+  gap: 1.25cqw;
+  margin-top: 31%;
+}
+.page-8-card-top-copy {
+  margin-inline: 5%;
+}
+
+.page-8-card-mid {
+  padding-top: 20%;
+  width: 24.7cqi;
+  gap: 1.85cqw;
+}
+.page-8-card-right {
+  gap: 1.25cqw;
+  margin-top: 31%;
+}
+.page-8-card-bottom-copy {
+  margin-top: 6%;
+}
+.page-8-note-first {
+  display: block;
+  padding-left: 7%;
+}
+.page-8-photo-first {
+  width: 100%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  aspect-ratio: 1.324 / 1;
+}
+.page-8-photo {
+  overflow: hidden;
+  background: #ddd7ca;
 }
 .page-8-note {
-  position: absolute;
+  display: block;
   font-size: 1.2cqw;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.02em;
-}
-.page-8-note-left {
-  left: 4.16%;
-  top: 40%;
-}
-.page-8-note-top {
-  top: 24.07%;
-  right: 5.09%;
-  width: 20.37%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.page-8-note-right {
-  right: 8.24%;
-  top: 40.74%;
-}
-.page-8-note-bottom {
-  left: 4.16%;
-  top: 63.33%;
-  width: 18.37%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.page-8-photo {
-  position: absolute;
-  overflow: hidden;
-  background: #ddd7ca;
 }
 .page-8-photo img {
   width: 100%;
@@ -828,45 +830,45 @@ main {
   display: block;
   object-fit: cover;
 }
-.page-8-photo-small-left {
-  left: 0.46%;
-  top: 43.98%;
-  width: 22.68%;
-  height: 17.12%;
+.page-8-note-bottom {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7%;
+}
+.page-8-note-top {
+  display: flex;
+}
+.page-8-top-copy {
+  font-weight: 400;
+  width: 20cqi;
+  font-size: 1.7cqw;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #695c5c;
+}
+.page-8-note-right {
+  display: block;
 }
 .page-8-photo-tall {
-  left: 25.09%;
-  top: 24.53%;
-  width: 23.14%;
-  height: 37.68%;
+  width: 100%;
+  aspect-ratio: 0.614 / 1;
 }
 .page-8-photo-mid {
-  left: 49.62%;
-  top: 33.33%;
-  width: 23.14%;
-  height: 28.88%;
 }
 .page-8-photo-small-right {
-  right: 1.38%;
-  top: 43.98%;
-  width: 22.68%;
-  height: 17.12%;
+  width: 100%;
+  aspect-ratio: 1.324 / 1;
 }
 .page-8-middle-copy {
-  position: absolute;
-  left: 49.6%;
-  top: 63.8%;
-  width: 19.6%;
   font-size: 2cqw;
   line-height: 1.08;
   letter-spacing: -0.02em;
   color: #695c5c;
 }
 .page-8-bottom-copy {
-  position: absolute;
-  left: 4.16%;
-  bottom: 14.35%;
-  width: 48.51%;
+  width: 49cqi;
   font-size: 2cqw;
   line-height: 1.08;
   letter-spacing: -0.02em;
