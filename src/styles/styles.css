@@ -1008,29 +1008,31 @@ main {
   color: #8f8f8f;
 }
 .page-9 {
-  padding: 1.38% 0% 2.12% 1.38%;
+  padding: 1.38% 0% 2.12% 1.18cqw;
 }
 .page-9-header {
   container-type: inline-size;
-  height: 59.5cqw;
-  line-height: 1;
+  height: 46.66cqw;
+  text-align: center;
+  position: relative;
+  top:-25cqw;
 }
 .page-9-title {
   padding-top: 0;
-  font-family: "Pinyon Script", cursive;
-  font-size: 17cqw;
+  font-family: "Ekaterina Velikaya One", cursive;
+  font-size: 14.25cqw;
   font-weight: 400;
-  line-height: 0.88;
+  line-height: 100%;
   letter-spacing: 0;
   color: #050505;
-  position: relative;
+  position: absolute;
+  bottom: 0;
   z-index: 2;
 }
 .page-9-visual {
-  top: 1.5cqw;
+  top:-30cqw;
   position: relative;
   z-index: 1;
-  margin: -3.3% 0 0;
   width: 100cqw;
   height: 45cqw;
   overflow: hidden;
@@ -1040,17 +1042,17 @@ main {
   height: 100%;
   display: block;
   object-fit: cover;
-  object-position: center;
 }
 .page-9-copy-grid {
   display: grid;
-  top: 2.7cqw;
+  top: -28.3cqw;
   padding-inline: 0.37%;
   height: 37.7cqw;
   align-items: start;
   grid-template-rows: 9cqw 16.9cqw auto;
   grid-template-columns: auto 19.7cqw auto;
   container-type: inline-size;
+  position: relative;
 }
 .page-9-copy {
   font-family: "Montserrat", sans-serif;
@@ -1072,18 +1074,37 @@ main {
 .page-9-copy-right {
   grid-column: 3;
   grid-row: 2;
-  align-self: start;
   width: 53cqw;
   height: 12cqw;
 }
 .page-9-subtitle {
-  left: 48.148148%;
-  font-family: "Pinyon Script", cursive;
+  font-family: "Ekaterina Velikaya One", cursive;
   font-size: 4.65cqw;
   font-weight: 400;
   line-height: 0.9;
   color: #050505;
-  padding-left: 4cqw;
+}
+.page-9-copy-right-top{
+  height:30.95cqw;
+  width:81.8cqw;
+  position: absolute;
+  grid-row: 2;
+  grid-column: 3;
+  bottom: 24cqw;
+}
+.page-9-copy-right h3{
+  position: absolute;
+  grid-row: 2;
+  grid-column: 3;
+  bottom: 10cqw;
+  bottom: 0;
+}
+.page-9-copy-right p{
+  height: 13.5cqw;
+  position: absolute;
+  grid-row: 2;
+  grid-column: 3;
+  bottom: 11cqw;
 }
 .page-9-copy-right-body {
   max-width: 49.8cqw;
