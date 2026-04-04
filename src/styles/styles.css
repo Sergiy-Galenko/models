@@ -23,11 +23,14 @@ main {
   gap: 2rem;
 }
 @font-face {
-  font-family: "Ekaterina Velikaya One";
+  font-family: "Ekaterina Velikaya One page9";
   src: url("../../fonts/EkaterinaVelikayaOne.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+  ascent-override: 30%;
+  descent-override: 20%;
+  line-gap-override: 0%;
 }
 @font-face {
   font-family: "Shelley Volante";
@@ -1012,14 +1015,14 @@ main {
 }
 .page-9-header {
   container-type: inline-size;
-  height: 46.66cqw;
+  height: 50.09cqw;
   text-align: center;
   position: relative;
-  top:-25cqw;
+  top:-28.45cqw;
 }
 .page-9-title {
   padding-top: 0;
-  font-family: "Ekaterina Velikaya One", cursive;
+  font-family: "Ekaterina Velikaya One page9", cursive;
   font-size: 14.25cqw;
   font-weight: 400;
   line-height: 100%;
@@ -1030,7 +1033,7 @@ main {
   z-index: 2;
 }
 .page-9-visual {
-  top:-30cqw;
+  top:-33.5cqw;
   position: relative;
   z-index: 1;
   width: 100cqw;
@@ -1045,7 +1048,7 @@ main {
 }
 .page-9-copy-grid {
   display: grid;
-  top: -28.3cqw;
+  top: -31.8cqw;
   padding-inline: 0.37%;
   height: 37.7cqw;
   align-items: start;
@@ -1078,7 +1081,7 @@ main {
   height: 12cqw;
 }
 .page-9-subtitle {
-  font-family: "Ekaterina Velikaya One", cursive;
+  font-family: "Ekaterina Velikaya One page9", cursive;
   font-size: 4.65cqw;
   font-weight: 400;
   line-height: 0.9;
