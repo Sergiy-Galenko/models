@@ -142,6 +142,33 @@ main {
   
 }
 
+.page-1-ticket-top {
+  height: 177cqw;
+  width: 100cqw;
+  position: relative;
+  z-index: 1;
+}
+
+.page-1-bottom-ticket {
+  width: 100cqw;
+  height: 100.5cqw;
+}
+
+.down-ticket-part {
+  width: 100cqw;
+  position: relative;
+  top: -63cqw;
+  z-index: 0;
+}
+
+.qr-page-1 {
+  position: relative;
+  top: -89cqw;
+  left: 15.6cqw;
+  width: 68cqw;
+  height: 9.2cqw;
+}
+
 .page-1-model {
   width: 93.43cqw;
   height: 164.45cqw;
