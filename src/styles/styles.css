@@ -33,7 +33,17 @@ main {
   line-gap-override: 0%;
 }
 @font-face {
-  font-family: "Ekaterina Velikaya One page10";
+  font-family: "Ekaterina Velikaya One page2";
+  src: url("../../fonts/EkaterinaVelikayaOne.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 750%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Ekaterina Velikaya One P";
   src: url("../../fonts/EkaterinaVelikayaOne.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -234,10 +244,10 @@ main {
   margin: 0;
 }
 .page-2-wordmark-p {
-  font-family: "Ekaterina Velikaya One page10";
+  font-family: "Ekaterina Velikaya One P";
   position: absolute;
   font-size: 41cqw;
-  left: -22cqw;
+  left: -26cqw;
   line-height: 0.84;
   letter-spacing: 0;
   font-weight: 400;
@@ -246,13 +256,12 @@ main {
 }
 .page-2-wordmark-racticality {
   position: absolute;
-  font-family: "Pinyon Script", cursive;
+  font-family: "Ekaterina Velikaya One page2";
   font-size: 9.1cqw;
   font-weight: 400;
   line-height: 0.94;
   letter-spacing: 0;
-  top: 30cqw;
-  left: 32.5cqw;
+  left: 30.5cqw;
   z-index: 2;
   color: #000000;
 }
