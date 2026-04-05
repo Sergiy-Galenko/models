@@ -80,6 +80,14 @@ main {
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: "BazaArt";
+  src: url("../../fonts/bazaart.woff2") format("woff2");
+  font-weight: 400;
+  font-size: normal;
+  font-display: swap;
+}
 .page-1,
 .page-2,
 .page-3,
@@ -1023,13 +1031,74 @@ main {
   text-align: right;
   color: #000;
 }
-.page-7-graphic {
+
+.page-7-big-parts {
+  width: 49.6296296296cqw;
+  height: 91.0185185185cqw;
   position: absolute;
-  left: 8.33%;
-  top: 26.38%;
-  width: 55.5%;
-  height: 47.22%;
+  top: -5.92592592593cqw;
+  left: 12.5cqw;
+  container-type: inline-size;
 }
+
+.small-parts-page-7{
+  width: 100cqw;
+  height: 100cqw;
+  container-type: inline-size;
+}
+
+.int_des-page-7 {
+  font-family: "Monsterrat", sans-serif;
+  font-size: 1.375cqw;
+  font-weight: 700;
+  position: absolute;
+  top: 33.88cqw;
+  left: 25.46cqw;
+}
+
+.now_text-page-7 {
+  font-family: "Monsterrat", sans-serif;
+  font-size: 1.375cqw;
+  font-weight: 700;
+  position: absolute;
+  top: 64.25cqw;
+  left: 25.46cqw;
+}
+
+.time-page-7 {
+  font-family: "Monsterrat", sans-serif;
+  font-size: 1.375cqw;
+  font-weight: 700;
+  position: absolute;
+  top: 64.25cqw;
+  left: 42cqw;
+}
+
+.page-7-barckets-container {
+  width: 100cqw;
+  height: 152cqw;
+  position: absolute;
+  top: 29.91cqw;
+  container-type: inline-size;
+}
+
+.page-7-barckets {
+  font-family: "BazaArt", sans-serif;
+  font-size: 103.5cqw;
+  position: absolute;
+  top: 23cqw;
+  letter-spacing: 25%;
+}
+.page-7-number {
+  font-family: "Ekaterina Velikaya One page9";
+  width: 43.6567164179cqw;
+  position: relative;
+  font-size: 40.85cqw;
+  top: 100cqw;
+  left: 25cqw;
+  
+}
+
 .page-7-graphic-image {
   width: 100%;
   height: 100%;
