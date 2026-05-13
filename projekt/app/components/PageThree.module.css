@@ -1,0 +1,99 @@
+.page {
+  width: 100%;
+  max-width: var(--page-max-width);
+  aspect-ratio: 1 / 1;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  background: var(--paper);
+  container-type: inline-size;
+}
+
+.page-3-top-visual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100cqi;
+  height: 58cqi;
+  overflow: hidden;
+}
+
+.page-3-top-image {
+  width: 100cqi;
+  height: 58.3cqi;
+  display: block;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.page-3-top-menu {
+  background-color: white;
+  position: absolute;
+  width: 100cqi;
+  min-height: 1.85cqi;
+  left: 50%;
+  top: 18.055556cqi;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4.17cqi;
+  font-size: 1.2cqi;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+
+.page-3-copy {
+  position: absolute;
+  top: 58.3cqi;
+  left: 0;
+  width: 100cqi;
+  min-height: 16cqi;
+  padding: 2.7cqi 5.09cqi 2.78cqi;
+  background: #ffffff;
+}
+
+.page-3-copy p {
+  margin: 0;
+  max-width: 53.7cqi;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5cqi;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: #202020;
+}
+
+.page-3-bottom-visual {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100cqi;
+  height: 30.5cqi;
+  overflow: hidden;
+}
+
+.page-3-bottom-image {
+  width: 100cqi;
+  height: 30.5cqi;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.page-3-bottom-title {
+  position: absolute;
+  left: 50%;
+  bottom: 12.2cqi;
+  transform: translateX(-50%);
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  width: 100cqi;
+  font-size: 5.7cqi;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: #ffffff;
+}

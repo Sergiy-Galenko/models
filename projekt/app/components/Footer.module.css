@@ -1,0 +1,121 @@
+.footer {
+  background: #111;
+  font-family: 'Helvetica Neue', sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 0.5px solid #222;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 48px;
+  padding: 56px 40px 48px;
+  border-bottom: 0.5px solid rgba(248,246,242,0.08);
+}
+
+.footer-brand {}
+
+.footer-logo {
+  font-size: 13px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #F8F6F2;
+  margin-bottom: 14px;
+}
+
+.footer-tagline {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 16px;
+  color: rgba(248,246,242,0.5);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 200px;
+}
+
+.footer-email {
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: #A68A64;
+  margin-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.social-btn {
+  width: 32px;
+  height: 32px;
+  border: 0.5px solid rgba(248,246,242,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.social-label {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  color: rgba(248,246,242,0.4);
+}
+
+.footer-col {}
+
+.footer-col-title {
+  font-size: 9px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(248,246,242,0.35);
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-link {
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: rgba(248,246,242,0.55);
+  cursor: pointer;
+}
+
+.footer-link:hover {
+  color: #F8F6F2;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.footer-copy {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: rgba(248,246,242,0.25);
+  text-transform: uppercase;
+}
+
+.footer-legal {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-legal-link {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: rgba(248,246,242,0.25);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.footer-legal-link:hover {
+  color: rgba(248,246,242,0.55);
+}

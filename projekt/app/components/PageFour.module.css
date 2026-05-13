@@ -1,0 +1,176 @@
+.page {
+  width: 100%;
+  max-width: var(--page-max-width);
+  aspect-ratio: 1 / 1;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  background: var(--paper);
+  container-type: inline-size;
+}
+
+.page-4-line {
+  position: absolute;
+  height: 0.185cqi;
+  background: #bfbfbf;
+}
+
+.page-4-line::before,
+.page-4-line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 0.92cqi;
+  height: 0.92cqi;
+  border-radius: 50%;
+  background: #bfbfbf;
+  transform: translateY(-50%);
+}
+
+.page-4-line::before {
+  left: 0;
+}
+
+.page-4-line::after {
+  right: 0;
+}
+
+.page-4-line-top {
+  top: 19.5cqi;
+  left: -3cqi;
+  width: 28cqi;
+}
+
+.page-4-line-bottom {
+  left: 30cqi;
+  bottom: 14.8cqi;
+  width: 74cqi;
+}
+
+.page-4-image-wrap {
+  position: absolute;
+  left: 0;
+  top: 27.03cqi;
+  width: 25cqi;
+  height: 58.3cqi;
+  overflow: hidden;
+}
+
+.page-4-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.page-4-header {
+  position: absolute;
+  top: 21.1cqi;
+  left: 30.5cqi;
+  width: 55.5cqi;
+}
+
+.page-4-title {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5.9cqi;
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  color: #000;
+}
+
+.page-4-intro {
+  position: absolute;
+  top: 41.5cqi;
+  left: 30.5cqi;
+  width: 70cqi;
+  display: grid;
+  grid-template-columns: auto 2.5cqw auto;
+  grid-template-rows: auto 2cqw auto;
+  color: #7f7f7f;
+}
+
+.page-4-intro p {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3cqi;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0;
+}
+
+.page-4-intro-left {
+  grid-column: 1;
+  grid-row: 1;
+  width: 16.5cqw;
+  height: 7cqw;
+}
+
+.page-4-span1 {
+  grid-column: 1;
+  grid-row: 1;
+  padding-inline: 1cqi;
+}
+
+.page-4-span2 {
+  grid-column: 1;
+  grid-row: 1;
+  padding-inline: 1cqi;
+  width: 17cqw;
+}
+
+.page-4-span3 {
+  grid-column: 1;
+  grid-row: 1;
+  padding-inline: 1cqi;
+}
+
+.page-4-span4 {
+  grid-column: 1;
+  grid-row: 1;
+  padding-inline: 1cqi;
+}
+
+.page-4-span5 {
+  grid-column: 1;
+  grid-row: 3;
+  padding-left: 1cqi;
+  padding-right: 5cqi;
+}
+
+.page-4-span6 {
+  grid-column: 1;
+  grid-row: 3;
+  padding-left: 1cqi;
+}
+
+.page-4-intro-right {
+  width: 38cqw;
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.page-4-intro-left-bottom {
+  grid-column: 1;
+  grid-row: 3;
+  width: 17.1cqw;
+}
+
+.page-4-body {
+  position: absolute;
+  left: 30.5cqi;
+  bottom: 19cqi;
+  width: 65cqi;
+  padding-bottom: 3cqi;
+}
+
+.page-4-body p {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.35cqi;
+  font-weight: 400;
+  line-height: 1.18;
+  letter-spacing: 0;
+  color: #101010;
+}

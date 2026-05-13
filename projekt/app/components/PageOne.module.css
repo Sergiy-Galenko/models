@@ -1,0 +1,157 @@
+.page {
+  width: 100%;
+  max-width: var(--page-max-width);
+  aspect-ratio: 1 / 1;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  background: var(--paper);
+  container-type: inline-size;
+}
+
+.page-1__header {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(90%, 34.26%);
+  text-align: center;
+}
+
+.page-1__title {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5.18cqi;
+  font-weight: 400;
+  line-height: 0.82;
+  letter-spacing: -0.045em;
+  color: #111;
+}
+
+.page-1__title span {
+  display: block;
+}
+
+.page-1__dates {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 78%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+
+.page-1__date {
+  position: static;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.13cqi;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.page-1__date--left,
+.page-1__date--right {
+  left: auto;
+  right: auto;
+}
+
+.ticket {
+  position: relative;
+  width: 32.04cqi;
+  height: 67.2cqw;
+  container-type: inline-size;
+  left: 50cqw;
+  transform: translateX(-50%);
+  top: 16.4cqw;
+}
+
+.main-bg-ticket-page-1 {
+  width: 100cqw;
+  height: auto;
+}
+
+.page-1-ticket-top {
+  height: 177cqw;
+  width: 100cqw;
+  position: relative;
+  z-index: 1;
+}
+
+.page-1-bottom-ticket {
+  width: 100cqw;
+  height: 100.5cqw;
+}
+
+.down-ticket-part {
+  width: 100cqw;
+  height: auto;
+  position: relative;
+  top: -63cqw;
+  z-index: 0;
+}
+
+.qr-page-1 {
+  position: relative;
+  top: -89cqw;
+  left: 15.6cqw;
+  width: 68cqw;
+  height: 9.2cqw;
+}
+
+.page-1-model {
+  width: 93.43cqw;
+  height: 164.45cqw;
+  position: relative;
+  top: -175.07cqw;
+  left: 50cqw;
+  transform: translateX(-50%);
+}
+
+.page-1__text-parent {
+  position: absolute;
+  left: 50%;
+  bottom: 3%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+
+.page-1__text {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.84cqi;
+  font-weight: 400;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  color: #202020;
+}
+
+.page-1__text-lines span {
+  display: block;
+  margin: 0 auto;
+}
+
+.page-1__text-lines span:nth-child(1) {
+  max-width: 62%;
+}
+
+.page-1__text-lines span:nth-child(2) {
+  max-width: 72%;
+}
+
+.page-1__text-lines span:nth-child(3) {
+  max-width: 92%;
+}
+
+.page-1__text-lines span:nth-child(4) {
+  max-width: 100%;
+}
+
+.page-1__text strong {
+  font-weight: 700;
+}

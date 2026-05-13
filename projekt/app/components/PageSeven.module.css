@@ -1,0 +1,152 @@
+.page {
+  width: 100%;
+  max-width: var(--page-max-width);
+  aspect-ratio: 1 / 1;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  background: var(--paper);
+  container-type: inline-size;
+}
+
+.page-7-header {
+  position: absolute;
+  top: 7.87037%;
+  left: 2.777778%;
+  width: 94.444444%;
+}
+
+.page-7-title {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.203704%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4cqw;
+  font-weight: 700;
+  line-height: 1.02;
+  letter-spacing: -0.05em;
+  text-align: right;
+  color: #000;
+}
+
+.page-7-big-parts {
+  width: 49.6296296296cqw;
+  height: 91.0185185185cqw;
+  position: absolute;
+  top: -5.92592592593cqw;
+  left: 12.5cqw;
+  container-type: inline-size;
+}
+
+.small-parts-page-7 {
+  width: 100cqw;
+  height: 100cqw;
+  container-type: inline-size;
+}
+
+.int_des-page-7 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375cqw;
+  font-weight: 700;
+  position: absolute;
+  top: 33.88cqw;
+  left: 25.46cqw;
+}
+
+.now_text-page-7 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375cqw;
+  font-weight: 700;
+  position: absolute;
+  top: 64.25cqw;
+  left: 25.46cqw;
+}
+
+.time-page-7 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375cqw;
+  font-weight: 700;
+  position: absolute;
+  top: 64.25cqw;
+  left: 42cqw;
+}
+
+.int_des-page-7 h2,
+.now_text-page-7 h2,
+.time-page-7 h2,
+.page-7-barckets,
+.page-7-number h2 {
+  margin: 0;
+  font: inherit;
+}
+
+.page-7-barckets-container {
+  width: 100cqw;
+  height: 152cqw;
+  position: absolute;
+  top: 29.91cqw;
+  container-type: inline-size;
+}
+
+.page-7-barckets {
+  font-family: "BazaArt", sans-serif;
+  font-size: 103.5cqw;
+  position: absolute;
+  top: 23cqw;
+}
+
+.page-7-number {
+  font-family: "Ekaterina Velikaya One page9";
+  width: 43.6567164179cqw;
+  position: relative;
+  font-size: 40.85cqw;
+  top: 100cqw;
+  left: 25cqw;
+}
+
+.page-7-graphic-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.page-7-side {
+  position: absolute;
+  right: 2.77%;
+  top: 51.38%;
+  width: 29.16%;
+  text-align: right;
+}
+
+.page-7-date {
+  margin: 0 0 35%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5cqw;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #000;
+}
+
+.page-7-main-copy {
+  margin: 0 0 20%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.2cqw;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.page-7-sub-copy {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5cqw;
+  font-weight: 300;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #8f8f8f;
+}

@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Ekaterina Velikaya One page9";
+  src: url("/fonts/EkaterinaVelikayaOne.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 30%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Ekaterina Velikaya One page2";
+  src: url("/fonts/EkaterinaVelikayaOne.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 750%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Ekaterina Velikaya One P";
+  src: url("/fonts/EkaterinaVelikayaOne.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  ascent-override: 200%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: "Shelley Volante";
+  src: url("/fonts/1ShelleyVolante.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "3900 Minutes Regular";
+  src: url("/fonts/3900Minutes-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BazaArt";
+  src: url("/fonts/bazaart.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --page-max-width: 1080px;
+  --paper: #ffffff;
+  --ink: #111111;
+  --canvas: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--canvas);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: "Montserrat", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+img {
+  max-width: 100%;
+}

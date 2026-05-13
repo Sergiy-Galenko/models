@@ -1,0 +1,140 @@
+.page {
+  width: 100%;
+  max-width: var(--page-max-width);
+  aspect-ratio: 1 / 1;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  background: var(--paper);
+  container-type: inline-size;
+}
+
+.page-5-photo {
+  position: absolute;
+  overflow: hidden;
+}
+
+.page-5-photo-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.page-5-photo-left {
+  top: 0;
+  left: 0;
+  width: 22.68cqi;
+  height: 39.26cqi;
+}
+
+.page-5-photo-right {
+  top: 30.09cqi;
+  right: 0;
+  width: 49.7cqi;
+  height: 39.7cqi;
+}
+
+.page-5-photo-bottom-left {
+  left: 4.15cqi;
+  bottom: 5.6cqi;
+  width: 24cqi;
+  height: 29cqi;
+}
+
+.page-5-block {
+  position: absolute;
+  color: #111;
+}
+
+.page-5-block-number {
+  display: block;
+  margin-bottom: 6cqi;
+  font-family: var(--font-pinyon-script), cursive;
+  font-size: 2cqw;
+  font-weight: 400;
+  line-height: 1;
+  color: #1a1a1a;
+}
+
+.numberone,
+.numbertwo,
+.numberthree {
+  font-size: 1.3cqw;
+}
+
+.page-5-block-title {
+  margin: 0 0 1.75cqi;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.3cqw;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #000;
+}
+
+.page-5-block-copy {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4cqw;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.015em;
+  color: #202020;
+}
+
+.page-5-block-top {
+  top: 2.7cqi;
+  left: 25.64cqi;
+  width: 72cqi;
+}
+
+.page-5-block-middle {
+  top: 29cqi;
+  left: 25.6cqi;
+  width: 22.2cqi;
+}
+
+.page-5-block-middle .page-5-block-number {
+  position: absolute;
+  top: 0.4cqi;
+  right: -1cqi;
+}
+
+.page-5-block-middle .page-5-block-title {
+  margin-top: 8.2cqi;
+}
+
+.page-5-block-bottom {
+  bottom: 11.2cqi;
+  left: 29.9cqi;
+  width: 47.2cqi;
+}
+
+.page-5-block-copy--wide {
+  max-width: 95%;
+}
+
+.page-5-block-copy--narrow {
+  max-width: 100%;
+}
+
+.page-5-block-copy--medium {
+  max-width: 90%;
+}
+
+.page-5-block-copy--medium + .page-5-block-copy--medium {
+  margin-top: 2.59cqi;
+}
+
+.page-5-photo-left .page-5-photo-image {
+  object-position: 42% center;
+}
+
+.page-5-photo-right .page-5-photo-image {
+  object-position: center 44%;
+}
+
+.page-5-photo-bottom-left .page-5-photo-image {
+  object-position: center 34%;
+}
