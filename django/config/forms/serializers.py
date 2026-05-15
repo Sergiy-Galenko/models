@@ -7,7 +7,7 @@ class ContactRequestSerializer(serializers.ModelSerializer):
         fields=['id','name','email','message','created_at']
         read_only_fields=['id','created_at']
 
-class NewsletterSubsriberSerializer(serializers.ModelSerializer):
+class NewsletterSubscriberSerializer(serializers.ModelSerializer):
     class Meta:
         model=NewsletterSubscriber
         fields=['id','email']

@@ -18,7 +18,7 @@ class GallerySerializer(serializers.ModelSerializer):
 
 class ItemSerializer(serializers.ModelSerializer):
     category=CategorySerializer(read_only=True)
-    tags=TagSerializer(many=True,reda_only=True)
+    tags=TagSerializer(many=True,read_only=True)
     gallery=GallerySerializer(many=True,read_only=True)
 
     class Meta:

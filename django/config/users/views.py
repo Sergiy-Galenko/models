@@ -3,7 +3,7 @@ from .models import User
 from .serializers import UserSerializer, RegisterSerializer
 
 class RegisterView(generics.CreateAPIView):
-    queryset=User.Objects.all()
+    queryset=User.objects.all()
     serializer_class=RegisterSerializer
     permision_classes=[permissions.AllowAny]
 
